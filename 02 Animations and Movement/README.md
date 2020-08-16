@@ -1,4 +1,4 @@
-#02 Animations and Movement
+# 02 Animations and Movement
 Unity Mega Man Tutorial
 
 This is the project for Video 2 - Animations and Movement
