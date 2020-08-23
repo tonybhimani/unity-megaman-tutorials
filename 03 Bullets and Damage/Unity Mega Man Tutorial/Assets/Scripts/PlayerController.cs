@@ -31,7 +31,7 @@ public class PlayerController : MonoBehaviour
 
     [SerializeField] int bulletDamage = 1;
     [SerializeField] float bulletSpeed = 5f;
-    [SerializeField] Transform bullShootPos;
+    [SerializeField] Transform bulletShootPos;
     [SerializeField] GameObject bulletPrefab;
 
     // Start is called before the first frame update
@@ -243,7 +243,7 @@ public class PlayerController : MonoBehaviour
     void ShootBullet()
     {
         // create bullet from prefab gameobject
-        GameObject bullet = Instantiate(bulletPrefab, bullShootPos.position, Quaternion.identity);
+        GameObject bullet = Instantiate(bulletPrefab, bulletShootPos.position, Quaternion.identity);
         // set its name to that of the prefab so it doesn't include "(Clone)" when instantiated
         bullet.name = bulletPrefab.name;
         // set bullet damage amount, speed, direction bullet will travel along the x, and fire!
