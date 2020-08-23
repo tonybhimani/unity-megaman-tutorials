@@ -1162,7 +1162,7 @@ MonoBehaviour:
   jumpSpeed: 3.7
   bulletDamage: 1
   bulletSpeed: 5
-  bullShootPos: {fileID: 1955203744}
+  bulletShootPos: {fileID: 1955203744}
   bulletPrefab: {fileID: 4453091012611864755, guid: 531b3453d907f074baa0dcfb334e6e21,
     type: 3}
 --- !u!1 &1034242451
