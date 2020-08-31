@@ -152,8 +152,8 @@ public class GameManager : MonoBehaviour
 	private void FreezeEnemies(bool freeze)
 	{
 		// freeze all enemies
-		GameObject[] enemyObjects = GameObject.FindGameObjectsWithTag("Enemy");
-		foreach (GameObject enemy in enemyObjects)
+		GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
+		foreach (GameObject enemy in enemies)
 		{
 			enemy.GetComponent<EnemyController>().FreezeEnemy(freeze);
 		}

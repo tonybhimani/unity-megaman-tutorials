@@ -374,8 +374,8 @@ public class PlayerController : MonoBehaviour
         if (!isTakingDamage)
         {
             isTakingDamage = true;
-            isInvincible = true;
-            freezeInput = true;
+            Invincible(true);
+            FreezeInput(true);
             float hitForceX = 0.50f;
             float hitForceY = 1.5f;
             if (hitSideRight) hitForceX = -hitForceX;
@@ -391,16 +391,16 @@ public class PlayerController : MonoBehaviour
         // and we reset the animation because it doesn't loop otherwise
         // we can end up stuck in it
         isTakingDamage = false;
-        isInvincible = false;
-        freezeInput = false;
+        Invincible(false);
+        FreezeInput(false);
         animator.Play("Player_Hit", -1, 0f);
     }
 
     void StartDefeatAnimation()
     {
         // freeze player and input and go KABOOM!
-        freezeInput = true;
-        freezePlayer = true;
+        FreezeInput(true);
+        FreezePlayer(true);
         GameObject explodeEffect = Instantiate(explodeEffectPrefab);
         explodeEffect.name = explodeEffectPrefab.name;
         explodeEffect.transform.position = sprite.bounds.center;
@@ -410,8 +410,8 @@ public class PlayerController : MonoBehaviour
 
     void StopDefeatAnimation()
     {
-        freezeInput = false;
-        freezePlayer = false;
+        FreezeInput(false);
+        FreezePlayer(false);
     }
 
     void Defeat()
