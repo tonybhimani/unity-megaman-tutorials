@@ -21,7 +21,7 @@ public class BigEyeController : MonoBehaviour
     int[][] jumpPatterns = new int[][] {
         new int[1] { 1 },           // High Jump
         new int[2] { 0, 1 },        // Low Jump, High Jump
-        new int[3] { 0, 0, 1 }      // Low Jump, Low Jumpo, High Jump
+        new int[3] { 0, 0, 1 }      // Low Jump, Low Jump, High Jump
     };
 
     int jumpVelocityIndex;
