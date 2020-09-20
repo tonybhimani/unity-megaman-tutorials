@@ -85,6 +85,7 @@ public class BigEyeController : MonoBehaviour
         if (raycastHit.collider != null)
         {
             isGrounded = true;
+            // just landed from jumping/falling
             if (isJumping)
             {
                 isJumping = false;
