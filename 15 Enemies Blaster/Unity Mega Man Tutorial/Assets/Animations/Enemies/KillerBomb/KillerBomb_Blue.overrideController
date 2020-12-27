@@ -1,0 +1,13 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: KillerBomb_Blue
+  m_Controller: {fileID: 9100000, guid: 1b839ea7938091d439693886e4d873f5, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 9863ddf527feb214eb456f28dd11290f, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 2c79173b884f72f4fbce358622e5f951, type: 2}

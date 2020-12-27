@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: BigEye_Blue
+  m_Controller: {fileID: 9100000, guid: 21b0ede3c7688944199e22f3c3921efb, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: dd56650d331d79c40bd199de3916f2ad, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: cb695c286581e98479e98dfd39f7c126, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 8c0365407e147af42b914a9295c78f25, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 1e9cccd1367b6214f86e5259ceefec6b, type: 2}
