@@ -54,7 +54,7 @@ public class IntroScene : MonoBehaviour
         "DR. LIGHT'S LAB",
         "DR. LIGHT:\n\n\tMEGA MAN, COME OVER HERE PLEASE.",
         "DR. LIGHT:\n\n\tTHERE IS A DISTURBANCE AT THE HIGHWAY.",
-        "DR. LIGHT:\n\n\tI NEED NEED YOU TO INVESTIGATE.",
+        "DR. LIGHT:\n\n\tI NEED YOU TO INVESTIGATE.",
         "MEGA MAN:\n\n\tOF COURSE. I'LL LEAVE RIGHT AWAY.",
         "DR. LIGHT:\n\n\tTHANK YOU, MEGA MAN."
     };
