@@ -198,31 +198,27 @@ MonoBehaviour:
   playerWeapon: 0
   playerWeaponStructs:
   - weapon: 0
-    enabled: 1
     currentEnergy: 28
     maxEnergy: 28
   - weapon: 1
-    enabled: 0
     currentEnergy: 28
     maxEnergy: 28
   - weapon: 2
-    enabled: 0
     currentEnergy: 28
     maxEnergy: 28
   - weapon: 3
-    enabled: 0
     currentEnergy: 28
     maxEnergy: 28
   - weapon: 4
-    enabled: 0
     currentEnergy: 28
     maxEnergy: 28
   - weapon: 5
-    enabled: 0
     currentEnergy: 28
     maxEnergy: 28
   - weapon: 6
-    enabled: 0
+    currentEnergy: 28
+    maxEnergy: 28
+  - weapon: 7
     currentEnergy: 28
     maxEnergy: 28
   currentHealth: 0

@@ -1,7 +1,11 @@
 ﻿// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
 
+//
 // Source
 // https://gamedevelopment.tutsplus.com/tutorials/how-to-use-a-shader-to-dynamically-swap-a-sprites-colors--cms-25129
+//
+// EDIT: Added _Transparency property and edited frag -- now there's true transparency 
+//
 
 Shader "Custom/ColorSwap"
 {
@@ -10,6 +14,7 @@ Shader "Custom/ColorSwap"
 		[PerRendererData] _MainTex("Sprite Texture", 2D) = "white" {}
 		_SwapTex("Color Data", 2D) = "transparent" {}
 		_Color("Tint", Color) = (1,1,1,1)
+		_Transparency("Transparency", Range(0.0,1.0)) = 1.0
 		[MaterialToggle] PixelSnap("Pixel snap", Float) = 0
 	}
 
@@ -72,6 +77,8 @@ Shader "Custom/ColorSwap"
 
 			sampler2D _SwapTex;
 
+			float _Transparency;
+
 			fixed4 SampleSpriteTexture(float2 uv)
 			{
 				fixed4 color = tex2D(_MainTex, uv);
@@ -86,8 +93,14 @@ Shader "Custom/ColorSwap"
 				fixed4 c = SampleSpriteTexture(IN.texcoord);
 				fixed4 swapCol = tex2D(_SwapTex, float2(c.x, 0));
 				fixed4 final = lerp(c, swapCol, swapCol.a) * IN.color;
-				final.a = c.a;
-				final.rgb *= c.a;
+				if (c.a < 1) {
+					final.a = c.a;
+					final.rgb *= c.a;
+				}
+				else {
+					final.a = _Transparency;
+					final.rgb *= _Transparency;
+				}
 				return final;
 			}
 			ENDCG

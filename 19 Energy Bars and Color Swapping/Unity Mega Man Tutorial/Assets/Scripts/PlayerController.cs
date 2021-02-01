@@ -42,7 +42,7 @@ public class PlayerController : MonoBehaviour
         Secondary = 128
     }
 
-    public enum PlayerWeapons { Default, BombMan, CutMan, ElecMan, FireMan, GutsMan, IceMan };
+    public enum PlayerWeapons { Default, MagnetBeam, BombMan, CutMan, ElecMan, FireMan, GutsMan, IceMan };
     public PlayerWeapons playerWeapon = PlayerWeapons.Default;
 
     [System.Serializable]
@@ -489,6 +489,15 @@ public class PlayerController : MonoBehaviour
                 UIEnergyBars.Instance.SetImage(UIEnergyBars.EnergyBars.PlayerWeapon, UIEnergyBars.EnergyBarTypes.PlayerLife);
                 UIEnergyBars.Instance.SetVisibility(UIEnergyBars.EnergyBars.PlayerWeapon, false);
                 break;
+            case PlayerWeapons.MagnetBeam:
+                // dark blue, light blue
+                colorSwap.SwapColor((int)SwapIndex.Primary, ColorSwap.ColorFromInt(0x0073F7));
+                colorSwap.SwapColor((int)SwapIndex.Secondary, ColorSwap.ColorFromInt(0x00FFFF));
+                // magnet beam energy and set visible
+                UIEnergyBars.Instance.SetImage(UIEnergyBars.EnergyBars.PlayerWeapon, UIEnergyBars.EnergyBarTypes.MagnetBeam);
+                UIEnergyBars.Instance.SetValue(UIEnergyBars.EnergyBars.PlayerWeapon, weaponEnergyValue);
+                UIEnergyBars.Instance.SetVisibility(UIEnergyBars.EnergyBars.PlayerWeapon, true);
+                break;
             case PlayerWeapons.BombMan:
                 // green, light gray
                 colorSwap.SwapColor((int)SwapIndex.Primary, ColorSwap.ColorFromInt(0x009400));
@@ -664,17 +673,19 @@ public class PlayerController : MonoBehaviour
         // keep flashing consistent with 1/12 secs
         float flashDelay = 0.0833f;
         // get sprite's current material
-        Material material = sprite.material;
+        //Material material = sprite.material;
         // toggle transparency
         for (int i = 0; i < 10; i++)
         {
             //sprite.enabled = false;
-            sprite.material = null;
+            //sprite.material = null;
+            sprite.material.SetFloat("_Transparency", 0f);
             //sprite.color = new Color(1, 1, 1, 0);
             //sprite.color = Color.clear;
             yield return new WaitForSeconds(flashDelay);
             //sprite.enabled = true;
-            sprite.material = material; // new Material(Shader.Find("Sprites/Default"));
+            //sprite.material = material; // new Material(Shader.Find("Sprites/Default"));
+            sprite.material.SetFloat("_Transparency", 1f);
             //sprite.color = new Color(1, 1, 1, 1);
             //sprite.color = Color.white;
             yield return new WaitForSeconds(flashDelay);
