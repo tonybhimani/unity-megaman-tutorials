@@ -198,16 +198,15 @@ public class BombManController : MonoBehaviour
     void Launch()
     {
         // we don't want the bomb to land exactly in the player's position
-        float offset = 0.15f;
-        if (player.transform.position.x > 0) offset *= -1f;
-        Vector3 playerPos = new Vector3(player.transform.position.x + offset, player.transform.position.y);
+        float offset = 0.25f;
+        if (player.transform.position.x > transform.position.x) offset *= -1f;
         // set up the bomb properties and launch it
         bomb.GetComponent<BombScript>().SetContactDamageValue(4);
         bomb.GetComponent<BombScript>().SetExplosionDamageValue(4);
         bomb.GetComponent<BombScript>().SetExplosionDelay(0);
         bomb.GetComponent<BombScript>().SetCollideWithTags("Player");
         bomb.GetComponent<BombScript>().SetSourcePosition(handPos.position);
-        bomb.GetComponent<BombScript>().SetTargetPosition(playerPos);
+        bomb.GetComponent<BombScript>().SetTargetPosition(player.transform.position);
         bomb.GetComponent<BombScript>().SetTargetOffset(offset);
         bomb.GetComponent<BombScript>().SetHeight(1f);
         bomb.GetComponent<BombScript>().Bounces(false);
@@ -398,8 +397,10 @@ public class BombManController : MonoBehaviour
                 }
             }
             // default to these jump styles (Jump2 for forward, Jump3 for backward)
-            jumpAnimation = (player.transform.position.x < transform.position.x
-                && jumpDirection == -1f) ? "BombMan_Jump2" : "BombMan_Jump3";
+            jumpAnimation = 
+                ((player.transform.position.x <= transform.position.x && jumpDirection == -1f) || 
+                (transform.position.x <= player.transform.position.x && jumpDirection == 1f)) 
+                ? "BombMan_Jump2" : "BombMan_Jump3";
             // jump style Jump1 for shortest jump
             if (jumpIndex == 0) jumpAnimation = "BombMan_Jump1";
             // set jump velocity
