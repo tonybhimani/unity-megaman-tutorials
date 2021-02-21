@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ScrewDriver_Orange
+  m_Controller: {fileID: 9100000, guid: 81ad9a3b3c731cd4a803febbe2472c93, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 3607b26e20b8c4244a6661b6abd5b6de, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: cb75f0301c7f06642a475afd4a09f3ca, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: ea8c6b2280e16974fbf18c4dbe6e2ef7, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 4c6bf248cdd25b445a9da3997adf362f, type: 2}
