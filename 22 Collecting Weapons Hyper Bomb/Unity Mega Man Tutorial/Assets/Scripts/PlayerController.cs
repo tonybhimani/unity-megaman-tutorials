@@ -696,8 +696,8 @@ public class PlayerController : MonoBehaviour
         shootTimeLength = 0;
         keyShootReleaseTimeLength = 0;
 
-        // shoot key is being pressed
-        if (keyShoot && canUseWeapon)
+        // shoot key is being pressed and key release flag true
+        if (keyShoot && keyShootRelease && canUseWeapon)
         {
             // only be able to throw a hyper bomb if there is energy to do so
             // placing the check here so isThrowing can't become true and activate the arm throw animation
@@ -705,6 +705,7 @@ public class PlayerController : MonoBehaviour
             {
                 isThrowing = true;
                 canUseWeapon = false;
+                keyShootRelease = false;
                 shootTime = Time.time;
                 // Throw Bomb
                 Invoke("ThrowBomb", 0.1f);
@@ -713,7 +714,12 @@ public class PlayerController : MonoBehaviour
                 RefreshWeaponEnergyBar(WeaponTypes.HyperBomb);
             }
         }
-
+        // shoot key isn't being pressed and key release flag is false
+        if (!keyShoot && !keyShootRelease)
+        {
+            keyShootReleaseTimeLength = Time.time - shootTime;
+            keyShootRelease = true;
+        }
         // while shooting limit its duration
         if (isThrowing)
         {
