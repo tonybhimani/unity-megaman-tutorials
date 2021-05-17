@@ -341,7 +341,7 @@ public class MainScene : MonoBehaviour
     }
 
     // run tasks when player reaches Highway0 transition
-    // this is called by camera post delay trigger event
+    // trigger this through a camera transition event
     public void Highway0Reached()
     {
         // find Kamadoma2 and enable its AI
@@ -353,7 +353,7 @@ public class MainScene : MonoBehaviour
     }
 
     // display a message that a checkpoint has been reached
-    // trigger this through a camera transition event
+    // trigger this through a camera transition post delay event
     public void CheckpointReached()
     {
         StartCoroutine(CoCheckpointReached());
