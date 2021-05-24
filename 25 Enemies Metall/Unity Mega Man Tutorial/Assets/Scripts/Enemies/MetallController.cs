@@ -162,10 +162,7 @@ public class MetallController : MonoBehaviour
                             metallState = MetallState.Closed;
                             // add a little randomness to the close timer value
                             float variance = Random.Range(0, 5) / 10f;
-                            if (variance > 0f)
-                            {
-                                closedTimer -= variance;
-                            }
+                            closedTimer -= variance;
                             // end of open/firing sequence, go to sleep in close state
                             if (shootSequenceCount == shootSequenceNum)
                             {
