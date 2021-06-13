@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Kamadoma_Blue
+  m_Controller: {fileID: 9100000, guid: da8004694cedc65418bb906e94fe0db1, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 0eb4344957134a54086f34e3d1f9e28b, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 6f58ae9e38a82b7408b57ceda8775ff6, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 164ff1b46c4b9a94eb87d702d923198c, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 4c6ca976f12ce4a4ab26bc3c3c3c95e2, type: 2}
