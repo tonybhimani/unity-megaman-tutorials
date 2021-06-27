@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5081575520552570513
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5081575520552570515}
+  - component: {fileID: 5081575520552570512}
+  - component: {fileID: 5081575520552570514}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5081575520552570515
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5081575520552570513}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5081575520552570512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5081575520552570513}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c27092a6ff15ca41823a718013efb95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameRestartDelay: 5
+  gamePlayerReadyDelay: 3
+  gameState: 0
+--- !u!114 &5081575520552570514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5081575520552570513}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4e8f04b95b200b43b5cc4da1de051a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyPrefabs:
+  - {fileID: 7511361543302447815, guid: 5fab1321ef2a5414993398802f9dad83, type: 3}
+  - {fileID: 2927638698630372218, guid: 034043a7a1ffb4940a940dcf69066aae, type: 3}
+  - {fileID: 2294302881667964670, guid: ad7d863b2457bff4c996a8fb5f419ea5, type: 3}
+  - {fileID: 7018019315862712430, guid: dbe2ca096b5cc6e4aa132a4ed06e84a9, type: 3}
+  enemyList: 0
+  itemPrefabs:
+  - {fileID: 5493799079978250046, guid: 489e5777c41e07447b7524035442cced, type: 3}
+  - {fileID: 6965844607984657596, guid: 05fd04e622d1a35449e46b0ec16ea5d7, type: 3}
+  - {fileID: 3361017668838012127, guid: 751e7ea07daca444bb3d8c5575711fa9, type: 3}
+  - {fileID: 5770455111043011294, guid: 8df735b713968c6498b14d5de588c07b, type: 3}
+  - {fileID: 4276659492665425808, guid: fbedf614d92faa842a41b9cc9127b7e4, type: 3}
+  - {fileID: 3632829144915842998, guid: 2f4c5012391275f439df186c5467c270, type: 3}
+  - {fileID: 8432001354293527928, guid: 34868aec5cc5c334aa5fdce2af3eb516, type: 3}
+  - {fileID: 6898322918661515198, guid: 1517b5f50c4065f48af7682fa115e64d, type: 3}
+  - {fileID: 3228464521134442057, guid: f27d77e511b6f3d46aea9f41c0a51890, type: 3}
+  itemList: 0
+  pauseMenuClip: {fileID: 8300000, guid: d06036f5cb162944c938f5c651180879, type: 3}
+  pointTallyClip: {fileID: 8300000, guid: 1dd7caf96478d1f45a3949f86de75e69, type: 3}
+  pointTallyLoopClip: {fileID: 0}
+  pointTallyEndClip: {fileID: 0}
