@@ -66,9 +66,9 @@ public class GameManager : MonoBehaviour
     public enum GameScenes { 
         TitleScreen, 
         IntroScene, 
-        MainScene, 
-        GameOver, 
+        MainScene,
         StageSelect,
+        GameOver,
         CutManStage,
         GutsManStage,
         IceManStage,
@@ -182,6 +182,9 @@ public class GameManager : MonoBehaviour
             case GameScenes.IntroScene:
                 StartIntroScene();
                 break;
+            case GameScenes.StageSelect:
+                StartStageSelectScreen();
+                break;
             case GameScenes.GameOver:
                 StartGameOverScreen();
                 break;
@@ -217,6 +220,9 @@ public class GameManager : MonoBehaviour
                 break;
             case GameScenes.IntroScene:
                 IntroSceneLoop();
+                break;
+            case GameScenes.StageSelect:
+                StageSelectScreenLoop();
                 break;
             case GameScenes.GameOver:
                 GameOverScreenLoop();
@@ -302,6 +308,24 @@ public class GameManager : MonoBehaviour
     }
 
     private void IntroSceneLoop()
+    {
+        // scene change triggered by StartNextScene()
+        if (startNextScene)
+        {
+            // can do other things here before loading the next scene
+            startNextScene = false;
+            gameScene = GetScene(nextSceneName);
+            SceneManager.LoadScene(nextSceneName);
+        }
+    }
+
+    private void StartStageSelectScreen()
+    {
+        // add any init code here for title screen
+        AllowGamePause(false);
+    }
+
+    private void StageSelectScreenLoop()
     {
         // scene change triggered by StartNextScene()
         if (startNextScene)
@@ -404,10 +428,10 @@ public class GameManager : MonoBehaviour
             {
                 // save player weapons
                 SavePlayerWeapons();
-                // load the next scene -- stage select
+                // load the next scene -- set in previous scene
                 startNextScene = false;
-                gameScene = GameScenes.StageSelect;
-                SceneManager.LoadScene(GetScene(gameScene));
+                gameScene = GetScene(nextSceneName);
+                SceneManager.LoadScene(nextSceneName);
             }
         }
         else

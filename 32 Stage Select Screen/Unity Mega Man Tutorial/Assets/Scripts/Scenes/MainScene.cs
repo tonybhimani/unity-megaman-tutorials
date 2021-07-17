@@ -366,7 +366,7 @@ public class MainScene : MonoBehaviour
                 // tell GameManager to trigger the next scene
                 if (!calledNextScene)
                 {
-                    GameManager.Instance.StartNextScene(GameManager.GameScenes.MainScene);
+                    GameManager.Instance.StartNextScene(GameManager.GameScenes.StageSelect);
                     calledNextScene = true;
                 }
                 break;

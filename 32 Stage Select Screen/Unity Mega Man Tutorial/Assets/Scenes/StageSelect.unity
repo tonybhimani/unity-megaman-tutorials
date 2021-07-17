@@ -2983,6 +2983,11 @@ PrefabInstance:
       propertyPath: GameStages.Array.data[5].Completed
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5081575520552570512, guid: 0416d370d16f81b448ea81b43e8af9f8,
+        type: 3}
+      propertyPath: gameScene
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5081575520552570513, guid: 0416d370d16f81b448ea81b43e8af9f8,
         type: 3}
       propertyPath: m_Name
