@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: AdheringSuzy_Red
+  m_Controller: {fileID: 9100000, guid: 44d84f4a7f08bb7458fc05ef91f55410, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: bf3f139bd583ba04b955a5e1d250d707, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 29f588c21bab4214fb270feee889cd4f, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 013e21d3e2b13854fa7f80541ab959ff, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 021642c9f375e2b40bef37781f4bd87d, type: 2}
