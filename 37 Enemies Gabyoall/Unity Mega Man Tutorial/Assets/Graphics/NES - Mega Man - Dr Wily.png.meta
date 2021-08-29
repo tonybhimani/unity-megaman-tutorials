@@ -1,0 +1,584 @@
+fileFormatVersion: 2
+guid: 47cd1cd587579ea4c903b2b39bc0a29f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5487358975438485955
+    second: DrWily_Idle
+  - first:
+      213: -4789045822854189194
+    second: DrWily_Idle
+  - first:
+      213: -4590866246603432633
+    second: DrWily_Pose2
+  - first:
+      213: 1348820092462896314
+    second: DrWilyShip1
+  - first:
+      213: -9213613854355892187
+    second: DrWilyShip2
+  - first:
+      213: -6036725118049732587
+    second: DrWilyShip3
+  - first:
+      213: -8037182604052958119
+    second: NES - Mega Man - Dr Wily_0
+  - first:
+      213: -4123755603719420120
+    second: DrWilyShipTop
+  - first:
+      213: 6879551761104012824
+    second: DrWilyShipBottom
+  - first:
+      213: 4788912241934424556
+    second: DrWilyShipLoading1
+  - first:
+      213: 3844718167484244253
+    second: DrWilyShipLoading2
+  - first:
+      213: 2058059667905877553
+    second: DrWilyShipLoading3
+  - first:
+      213: -3680051977646809059
+    second: DrWilyShipLoading4
+  - first:
+      213: 7856315914121183584
+    second: DrWilyShipLoading5
+  - first:
+      213: 3151848586400667290
+    second: DrWilyShipLoading6
+  - first:
+      213: -4546334662365849069
+    second: DrWilyShipLoading7
+  - first:
+      213: 894982099217304918
+    second: DrWilyShipLoading8
+  - first:
+      213: 6320843369599696961
+    second: DrWilyShipBlinking1
+  - first:
+      213: -8789743037205725683
+    second: DrWilyShipBlinking2
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DrWily_Pose1
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 630
+        width: 21
+        height: 24
+      alignment: 9
+      pivot: {x: 0.43, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c9ff063ae3072c40800000000000000
+      internalID: 5487358975438485955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrWily_Idle
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 630
+        width: 21
+        height: 24
+      alignment: 9
+      pivot: {x: 0.43, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67f25b39234e98db0800000000000000
+      internalID: -4789045822854189194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrWily_Pose2
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 630
+        width: 21
+        height: 24
+      alignment: 9
+      pivot: {x: 0.43, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74d1fdfd877f940c0800000000000000
+      internalID: -4590866246603432633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrWilyShip1
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 626
+        width: 56
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab4192d4ab8f7b210800000000000000
+      internalID: 1348820092462896314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrWilyShip2
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 626
+        width: 56
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 528df79e30ba22080800000000000000
+      internalID: -9213613854355892187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrWilyShip3
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 626
+        width: 56
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 518b7f33d7e393ca0800000000000000
+      internalID: -6036725118049732587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Mega Man - Dr Wily_0
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 638
+        width: 56
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95479722101367090800000000000000
+      internalID: -8037182604052958119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrWilyShipTop
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 638
+        width: 56
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82707c3802a75c6c0800000000000000
+      internalID: -4123755603719420120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrWilyShipBottom
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 617
+        width: 56
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 816848690e3197f50800000000000000
+      internalID: 6879551761104012824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrWilyShipLoading1
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 554
+        width: 56
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce95501bf42a57240800000000000000
+      internalID: 4788912241934424556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrWilyShipLoading2
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 554
+        width: 56
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d11a36a9dce2b5530800000000000000
+      internalID: 3844718167484244253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrWilyShipLoading3
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 554
+        width: 56
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13696182d52bf8c10800000000000000
+      internalID: 2058059667905877553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrWilyShipLoading4
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 554
+        width: 56
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d10636d5934ddecc0800000000000000
+      internalID: -3680051977646809059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrWilyShipLoading5
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 554
+        width: 56
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 061017803bd370d60800000000000000
+      internalID: 7856315914121183584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrWilyShipLoading6
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 554
+        width: 56
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a969a32179d9dbb20800000000000000
+      internalID: 3151848586400667290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrWilyShipLoading7
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 554
+        width: 56
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31a53ab46bc28e0c0800000000000000
+      internalID: -4546334662365849069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrWilyShipLoading8
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 554
+        width: 56
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65d4e283a7d9b6c00800000000000000
+      internalID: 894982099217304918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrWilyShipBlinking1
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 554
+        width: 56
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1408fdd2e8528b750800000000000000
+      internalID: 6320843369599696961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrWilyShipBlinking2
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 554
+        width: 56
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0eb368174f840680800000000000000
+      internalID: -8789743037205725683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
