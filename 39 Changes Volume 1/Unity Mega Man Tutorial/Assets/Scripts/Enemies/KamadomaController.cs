@@ -32,14 +32,18 @@ public class KamadomaController : MonoBehaviour
     [SerializeField] RuntimeAnimatorController racKamadomaBlue;
     [SerializeField] RuntimeAnimatorController racKamadomaRed;
 
-    // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
+        // get components from EnemyController
         enemyController = GetComponent<EnemyController>();
         animator = enemyController.GetComponent<Animator>();
         box2d = enemyController.GetComponent<BoxCollider2D>();
         rb2d = enemyController.GetComponent<Rigidbody2D>();
+    }
 
+    // Start is called before the first frame update
+    void Start()
+    {
         // set kamadoma color of choice
         SetColor(kamadomaColor);
 
