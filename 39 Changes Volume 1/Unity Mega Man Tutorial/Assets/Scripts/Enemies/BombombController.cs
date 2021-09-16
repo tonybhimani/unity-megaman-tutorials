@@ -24,6 +24,8 @@ public class BombombController : MonoBehaviour
     [SerializeField] BombombColors bombombColor = BombombColors.Blue;
 
     [Header("Timers & Collision")]
+    [SerializeField] bool launchOnStart;
+
     [SerializeField] float launchDelay = 5f;
 
     [SerializeField] string[] collideWithTags;
@@ -68,7 +70,7 @@ public class BombombController : MonoBehaviour
         {
             case BombombTypes.Launcher:
                 // only the launcher uses the timer
-                launchTimer = launchDelay;
+                launchTimer = launchOnStart ? 0 : launchDelay;
                 break;
             case BombombTypes.Bomb:
             case BombombTypes.Shrapnel:
@@ -199,6 +201,12 @@ public class BombombController : MonoBehaviour
                 animator.runtimeAnimatorController = racBombombRed;
                 break;
         }
+    }
+
+    public void SetLaunchOnStart(bool start)
+    {
+        // launch at first without delay
+        this.launchOnStart = start;
     }
 
     public void SetLaunchDelay(float delay)
