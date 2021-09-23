@@ -7,6 +7,7 @@ using UnityEngine.Events;
 public class CameraTransitionSettings
 {
     public string name;
+    public Vector3 position;
     public bool getCamPrevious;
     public bool onlyMoveCamera;
     public int entry;
@@ -17,6 +18,8 @@ public class CameraTransitionSettings
     public float transitionDelay;
     public float preTransitionDelay;
     public float postTransitionDelay;
+    public Vector2 cameraMinPrevious;
+    public Vector2 cameraMaxPrevious;
     public Vector2 cameraMinPosition;
     public Vector2 cameraMaxPosition;
     public Vector2 playerChange;
@@ -377,6 +380,7 @@ public class CameraTransition : MonoBehaviour
     {
         // copy the camera transition settings to the referenced parameter
         settings.name = this.name;
+        settings.position = this.transform.position;
         settings.getCamPrevious = this.getCamPrevious;
         settings.onlyMoveCamera = this.onlyMoveCamera;
         settings.entry = (int)this.entry;
@@ -387,6 +391,8 @@ public class CameraTransition : MonoBehaviour
         settings.transitionDelay = this.transitionDelay;
         settings.preTransitionDelay = this.preTransitionDelay;
         settings.postTransitionDelay = this.postTransitionDelay;
+        settings.cameraMinPrevious = this.cameraMinPrevious;
+        settings.cameraMaxPrevious = this.cameraMaxPrevious;
         settings.cameraMinPosition = this.cameraMinPosition;
         settings.cameraMaxPosition = this.cameraMaxPosition;
         settings.playerChange = this.playerChange;
@@ -395,6 +401,7 @@ public class CameraTransition : MonoBehaviour
     public void PutSettings(CameraTransitionSettings settings)
     {
         // restore/put settings into this camera transition
+        this.transform.position = settings.position;
         this.getCamPrevious = settings.getCamPrevious;
         this.onlyMoveCamera = settings.onlyMoveCamera;
         this.entry = (TransitionEntry)settings.entry;
@@ -405,6 +412,8 @@ public class CameraTransition : MonoBehaviour
         this.transitionDelay = settings.transitionDelay;
         this.preTransitionDelay = settings.preTransitionDelay;
         this.postTransitionDelay = settings.postTransitionDelay;
+        this.cameraMinPrevious = settings.cameraMinPrevious;
+        this.cameraMaxPrevious = settings.cameraMaxPrevious;
         this.cameraMinPosition = settings.cameraMinPosition;
         this.cameraMaxPosition = settings.cameraMaxPosition;
         this.playerChange = settings.playerChange;
