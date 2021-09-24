@@ -124,6 +124,12 @@ public class ScrewDriverController : MonoBehaviour
         SetAnimatorController();
     }
 
+    public void SetPlayerRange(float range)
+    {
+        // set the player range to start attacking
+        this.playerRange = range;
+    }
+
     void SetAnimatorController()
     {
         // set animator controller from color

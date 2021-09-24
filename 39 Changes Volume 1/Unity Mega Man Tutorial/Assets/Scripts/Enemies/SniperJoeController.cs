@@ -178,6 +178,12 @@ public class SniperJoeController : MonoBehaviour
         this.actionDelay = delay;
     }
 
+    public void SetJumpVector(Vector2 vector)
+    {
+        // sets/overrides the current jump vector if any
+        this.jumpVector = vector;
+    }
+
     public void SetJumpingVectors(params Vector2[] vectors)
     {
         // override default jumping vectors

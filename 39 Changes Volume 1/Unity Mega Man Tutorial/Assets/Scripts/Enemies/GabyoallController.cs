@@ -188,6 +188,12 @@ public class GabyoallController : MonoBehaviour
         this.enableAI = enable;
     }
 
+    public void SetMoveDirection(MoveDirections direction)
+    {
+        // set the initial movement direction
+        this.moveDirection = direction;
+    }
+
     public void SetColor(GabyoallColors color)
     {
         gabyoallColor = color;
