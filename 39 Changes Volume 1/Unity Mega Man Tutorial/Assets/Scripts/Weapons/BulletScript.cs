@@ -13,6 +13,7 @@ public class BulletScript : MonoBehaviour
 
     // freeze/hide bullet on screen
     bool freezeBullet;
+    bool wasFrozen;
     float animatorSpeed;
     Color bulletColor;
     RigidbodyConstraints2D rb2dConstraints;
@@ -125,6 +126,7 @@ public class BulletScript : MonoBehaviour
         if (freeze)
         {
             freezeBullet = true;
+            wasFrozen = true;
             rb2dConstraints = rb2d.constraints;
             animatorSpeed = animator.speed;
             animator.speed = 0;
@@ -133,10 +135,14 @@ public class BulletScript : MonoBehaviour
         }
         else
         {
-            freezeBullet = false;
-            animator.speed = animatorSpeed;
-            rb2d.constraints = rb2dConstraints;
-            rb2d.velocity = bulletDirection * bulletSpeed;
+            // only unfreeze if was frozen otherwise expect weird results
+            if (wasFrozen)
+            {
+                freezeBullet = false;
+                animator.speed = animatorSpeed;
+                rb2d.constraints = rb2dConstraints;
+                rb2d.velocity = bulletDirection * bulletSpeed;
+            }
         }
     }
 

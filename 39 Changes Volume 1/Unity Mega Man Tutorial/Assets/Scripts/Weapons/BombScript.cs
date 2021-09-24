@@ -18,6 +18,7 @@ public class BombScript : MonoBehaviour
 
     // freeze/hide bomb on screen
     bool freezeBomb;
+    bool wasFrozen;
     Color bombColor;
     Vector2 freezeVelocity;
     RigidbodyConstraints2D rb2dConstraints;
@@ -224,15 +225,20 @@ public class BombScript : MonoBehaviour
         if (freeze)
         {
             freezeBomb = true;
+            wasFrozen = true;
             rb2dConstraints = rb2d.constraints;
             freezeVelocity = rb2d.velocity;
             rb2d.constraints = RigidbodyConstraints2D.FreezeAll;
         }
         else
         {
-            freezeBomb = false;
-            rb2d.constraints = rb2dConstraints;
-            rb2d.velocity = freezeVelocity;
+            // only unfreeze if was frozen otherwise expect weird results
+            if (wasFrozen)
+            {
+                freezeBomb = false;
+                rb2d.constraints = rb2dConstraints;
+                rb2d.velocity = freezeVelocity;
+            }
         }
     }
 

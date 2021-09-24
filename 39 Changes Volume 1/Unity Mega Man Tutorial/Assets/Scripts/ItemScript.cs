@@ -23,6 +23,7 @@ public class ItemScript : MonoBehaviour
 
     // freeze/hide bonus item on screen
     bool freezeItem;
+    bool wasFrozen;
     bool animateItem;
     float itemAlpha;
     Color itemColor;
@@ -299,6 +300,7 @@ public class ItemScript : MonoBehaviour
         if (freeze)
         {
             freezeItem = true;
+            wasFrozen = true;
             animateItem = animate;
             if (animateItem) Animate(false);
             rb2dConstraints = rb2d.constraints;
@@ -307,10 +309,15 @@ public class ItemScript : MonoBehaviour
         }
         else
         {
-            freezeItem = false;
-            if (animateItem) Animate(true);
-            rb2d.constraints = rb2dConstraints;
-            rb2d.velocity = freezeVelocity;
+            // only unfreeze if was frozen otherwise expect weird results
+            if (wasFrozen)
+            {
+                freezeItem = false;
+                wasFrozen = false;
+                if (animateItem) Animate(true);
+                rb2d.constraints = rb2dConstraints;
+                rb2d.velocity = freezeVelocity;
+            }
         }
     }
 

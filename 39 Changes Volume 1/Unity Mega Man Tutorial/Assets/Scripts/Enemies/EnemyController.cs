@@ -21,6 +21,7 @@ public class EnemyController : MonoBehaviour
     GameObject explodeEffect;
 
     // freeze/hide enemy on the screen
+    bool wasFrozen;
     float animatorSpeed;
     Color enemyColor;
     Vector2 freezeVelocity;
@@ -245,6 +246,7 @@ public class EnemyController : MonoBehaviour
         if (freeze)
         {
             freezeEnemy = true;
+            wasFrozen = true;
             animatorSpeed = animator.speed;
             rb2dConstraints = rb2d.constraints;
             freezeVelocity = rb2d.velocity;
@@ -253,10 +255,15 @@ public class EnemyController : MonoBehaviour
         }
         else
         {
-            freezeEnemy = false;
-            animator.speed = animatorSpeed;
-            rb2d.constraints = rb2dConstraints;
-            rb2d.velocity = freezeVelocity;
+            // only unfreeze if was frozen otherwise expect weird results
+            if (wasFrozen)
+            {
+                freezeEnemy = false;
+                wasFrozen = false;
+                animator.speed = animatorSpeed;
+                rb2d.constraints = rb2dConstraints;
+                rb2d.velocity = freezeVelocity;
+            }
         }
     }
 

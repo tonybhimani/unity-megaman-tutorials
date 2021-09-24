@@ -11,6 +11,7 @@ public class MagnetBeamScript : MonoBehaviour
 
     // freeze/hide beam on screen
     bool freezeBeam;
+    bool wasFrozen;
     Color beamColor;
 
     // time vars
@@ -150,12 +151,18 @@ public class MagnetBeamScript : MonoBehaviour
         if (freeze)
         {
             freezeBeam = true;
+            wasFrozen = true;
             animator.speed = 0;
         }
         else
         {
-            freezeBeam = false;
-            animator.speed = 1;
+            // only unfreeze if was frozen otherwise expect weird results
+            if (wasFrozen)
+            {
+                freezeBeam = false;
+                wasFrozen = false;
+                animator.speed = 1;
+            }
         }
     }
 

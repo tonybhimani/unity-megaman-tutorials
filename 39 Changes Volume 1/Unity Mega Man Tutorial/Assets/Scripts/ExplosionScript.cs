@@ -14,6 +14,7 @@ public class ExplosionScript : MonoBehaviour
 
     // freeze/hide explosion on screen
     bool freezeExplosion;
+    bool wasFrozen;
     float animatorSpeed;
     Color explosionColor;
 
@@ -83,13 +84,18 @@ public class ExplosionScript : MonoBehaviour
         if (freeze)
         {
             freezeExplosion = true;
+            wasFrozen = true;
             animatorSpeed = animator.speed;
             animator.speed = 0;
         }
         else
         {
-            freezeExplosion = false;
-            animator.speed = animatorSpeed;
+            // only unfreeze if was frozen otherwise expect weird results
+            if (wasFrozen)
+            {
+                freezeExplosion = false;
+                animator.speed = animatorSpeed;
+            }
         }
     }
 
