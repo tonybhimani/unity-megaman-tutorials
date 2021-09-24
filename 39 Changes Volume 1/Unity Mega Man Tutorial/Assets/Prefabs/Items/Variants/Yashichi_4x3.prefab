@@ -10,7 +10,7 @@ PrefabInstance:
     - target: {fileID: 3228464521134442057, guid: f27d77e511b6f3d46aea9f41c0a51890,
         type: 3}
       propertyPath: m_Name
-      value: Yashichi43
+      value: Yashichi_4x3
       objectReference: {fileID: 0}
     - target: {fileID: 3228464521134442060, guid: f27d77e511b6f3d46aea9f41c0a51890,
         type: 3}
@@ -75,6 +75,11 @@ PrefabInstance:
     - target: {fileID: 3228464521134442060, guid: f27d77e511b6f3d46aea9f41c0a51890,
         type: 3}
       propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3228464521134442060, guid: f27d77e511b6f3d46aea9f41c0a51890,
+        type: 3}
+      propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []

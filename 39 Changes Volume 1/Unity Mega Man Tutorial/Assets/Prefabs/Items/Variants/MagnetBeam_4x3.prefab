@@ -72,10 +72,15 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8432001354293527911, guid: 34868aec5cc5c334aa5fdce2af3eb516,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8432001354293527928, guid: 34868aec5cc5c334aa5fdce2af3eb516,
         type: 3}
       propertyPath: m_Name
-      value: MagnetBeam43
+      value: MagnetBeam_4x3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 34868aec5cc5c334aa5fdce2af3eb516, type: 3}

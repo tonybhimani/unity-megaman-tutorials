@@ -72,10 +72,15 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6965844607984657585, guid: 05fd04e622d1a35449e46b0ec16ea5d7,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6965844607984657596, guid: 05fd04e622d1a35449e46b0ec16ea5d7,
         type: 3}
       propertyPath: m_Name
-      value: ExtraLife43
+      value: ExtraLife_4x3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 05fd04e622d1a35449e46b0ec16ea5d7, type: 3}

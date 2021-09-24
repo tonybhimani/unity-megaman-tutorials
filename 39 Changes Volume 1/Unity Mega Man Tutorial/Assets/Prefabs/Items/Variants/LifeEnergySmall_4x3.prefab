@@ -10,7 +10,7 @@ PrefabInstance:
     - target: {fileID: 5770455111043011294, guid: 8df735b713968c6498b14d5de588c07b,
         type: 3}
       propertyPath: m_Name
-      value: LifeEnergySmall43
+      value: LifeEnergySmall_4x3
       objectReference: {fileID: 0}
     - target: {fileID: 5770455111043011296, guid: 8df735b713968c6498b14d5de588c07b,
         type: 3}
@@ -75,6 +75,11 @@ PrefabInstance:
     - target: {fileID: 5770455111043011296, guid: 8df735b713968c6498b14d5de588c07b,
         type: 3}
       propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5770455111043011296, guid: 8df735b713968c6498b14d5de588c07b,
+        type: 3}
+      propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []

@@ -10,7 +10,7 @@ PrefabInstance:
     - target: {fileID: 3632829144915842998, guid: 2f4c5012391275f439df186c5467c270,
         type: 3}
       propertyPath: m_Name
-      value: WeaponEnergySmall43
+      value: WeaponEnergySmall_4x3
       objectReference: {fileID: 0}
     - target: {fileID: 3632829144915843004, guid: 2f4c5012391275f439df186c5467c270,
         type: 3}
@@ -75,6 +75,11 @@ PrefabInstance:
     - target: {fileID: 3632829144915843004, guid: 2f4c5012391275f439df186c5467c270,
         type: 3}
       propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3632829144915843004, guid: 2f4c5012391275f439df186c5467c270,
+        type: 3}
+      propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
