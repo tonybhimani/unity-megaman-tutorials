@@ -197,6 +197,7 @@ MonoBehaviour:
   DefeatEvent:
     m_PersistentCalls:
       m_Calls: []
+  damageOverrides: []
 --- !u!114 &9009904828729404927
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -210,14 +211,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enableAI: 0
-  closeVariance: 0.5
   openDelay: 0.5
   closedDelay: 0.5
   shootDelay: 0.25
   sleepDelay: 2
   viewDistance: 2
   shootSequenceMax: 5
-  metState: 0
+  metallState: 0
 --- !u!1 &9009904829194806638
 GameObject:
   m_ObjectHideFlags: 0

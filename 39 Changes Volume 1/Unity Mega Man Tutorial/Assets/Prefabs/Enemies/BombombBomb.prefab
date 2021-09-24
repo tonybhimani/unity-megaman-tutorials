@@ -194,6 +194,7 @@ MonoBehaviour:
   DefeatEvent:
     m_PersistentCalls:
       m_Calls: []
+  damageOverrides: []
 --- !u!114 &3858792755840688747
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -206,8 +207,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e3294bde9f2b724393fd197b4cbbf9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enableAI: 0
   bombombType: 1
   bombombColor: 0
+  launchOnStart: 0
   launchDelay: 5
   collideWithTags: []
   bombVelocity: {x: 0, y: 5}

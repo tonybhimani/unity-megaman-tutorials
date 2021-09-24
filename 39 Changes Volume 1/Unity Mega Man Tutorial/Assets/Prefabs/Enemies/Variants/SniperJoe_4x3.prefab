@@ -27,7 +27,7 @@ PrefabInstance:
     - target: {fileID: 5172626501654380710, guid: 4bf764b4d012ae84487d372a71cc5a38,
         type: 3}
       propertyPath: m_Name
-      value: SniperJoe_43
+      value: SniperJoe_4x3
       objectReference: {fileID: 0}
     - target: {fileID: 5172626501654380728, guid: 4bf764b4d012ae84487d372a71cc5a38,
         type: 3}
@@ -92,6 +92,11 @@ PrefabInstance:
     - target: {fileID: 5172626501654380728, guid: 4bf764b4d012ae84487d372a71cc5a38,
         type: 3}
       propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5172626501654380728, guid: 4bf764b4d012ae84487d372a71cc5a38,
+        type: 3}
+      propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5172626501654380735, guid: 4bf764b4d012ae84487d372a71cc5a38,

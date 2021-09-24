@@ -10,7 +10,7 @@ PrefabInstance:
     - target: {fileID: 9009904828729404912, guid: b4529f8776f1df94ba62a3b849236508,
         type: 3}
       propertyPath: m_Name
-      value: Metall_43
+      value: Metall_4x3
       objectReference: {fileID: 0}
     - target: {fileID: 9009904828729404913, guid: b4529f8776f1df94ba62a3b849236508,
         type: 3}
@@ -92,6 +92,11 @@ PrefabInstance:
     - target: {fileID: 9009904828729404926, guid: b4529f8776f1df94ba62a3b849236508,
         type: 3}
       propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9009904828729404926, guid: b4529f8776f1df94ba62a3b849236508,
+        type: 3}
+      propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []

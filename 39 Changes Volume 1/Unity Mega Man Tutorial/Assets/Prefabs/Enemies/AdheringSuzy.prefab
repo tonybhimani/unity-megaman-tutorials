@@ -252,6 +252,7 @@ MonoBehaviour:
   DefeatEvent:
     m_PersistentCalls:
       m_Calls: []
+  damageOverrides: []
 --- !u!114 &8164047099071222697
 MonoBehaviour:
   m_ObjectHideFlags: 0

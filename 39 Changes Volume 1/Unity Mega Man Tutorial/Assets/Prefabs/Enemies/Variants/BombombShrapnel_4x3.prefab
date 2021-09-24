@@ -72,6 +72,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4815226616341635680, guid: 0e5ab2999fd42614485d8bf2720274cf,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4815226616341635683, guid: 0e5ab2999fd42614485d8bf2720274cf,
         type: 3}
       propertyPath: bombPrefab

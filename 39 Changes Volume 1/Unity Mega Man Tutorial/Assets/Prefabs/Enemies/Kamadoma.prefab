@@ -195,6 +195,7 @@ MonoBehaviour:
   DefeatEvent:
     m_PersistentCalls:
       m_Calls: []
+  damageOverrides: []
 --- !u!114 &4774944254433741115
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -207,6 +208,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d449620cf2a39e74d96566fc88a55f06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enableAI: 0
+  jumpDelay: 0.5
+  jumpVectors:
+  - {x: 1, y: 4}
+  - {x: 2.5, y: 3}
   kamadomaColor: 0
   racKamadomaBlue: {fileID: 22100000, guid: 9206a59e09eba0c46aa7b8a89fa9b17d, type: 2}
   racKamadomaRed: {fileID: 22100000, guid: 3402463ec6de3894dad0b36d2e2adb71, type: 2}

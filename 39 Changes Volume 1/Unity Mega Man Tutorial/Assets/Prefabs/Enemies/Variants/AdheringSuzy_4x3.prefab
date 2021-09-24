@@ -16,7 +16,7 @@ PrefabInstance:
     - target: {fileID: 8164047099071222702, guid: 3bc41c5cd678ac249bf0b59e1c66b636,
         type: 3}
       propertyPath: m_Name
-      value: AdheringSuzy_43
+      value: AdheringSuzy_4x3
       objectReference: {fileID: 0}
     - target: {fileID: 8164047099071222711, guid: 3bc41c5cd678ac249bf0b59e1c66b636,
         type: 3}
@@ -81,6 +81,11 @@ PrefabInstance:
     - target: {fileID: 8164047099071222711, guid: 3bc41c5cd678ac249bf0b59e1c66b636,
         type: 3}
       propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164047099071222711, guid: 3bc41c5cd678ac249bf0b59e1c66b636,
+        type: 3}
+      propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []

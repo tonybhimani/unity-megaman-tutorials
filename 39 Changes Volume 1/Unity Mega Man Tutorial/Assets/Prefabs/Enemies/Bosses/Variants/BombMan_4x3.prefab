@@ -69,6 +69,11 @@ PrefabInstance:
       propertyPath: attackDistance
       value: 0.8
       objectReference: {fileID: 0}
+    - target: {fileID: 3204241938196345675, guid: 3c2aa140bfc60f34788ba7a11f045b07,
+        type: 3}
+      propertyPath: tossVelocity.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3204241938196345676, guid: 3c2aa140bfc60f34788ba7a11f045b07,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -132,6 +137,11 @@ PrefabInstance:
     - target: {fileID: 3204241938196345676, guid: 3c2aa140bfc60f34788ba7a11f045b07,
         type: 3}
       propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204241938196345676, guid: 3c2aa140bfc60f34788ba7a11f045b07,
+        type: 3}
+      propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3204241938196345777, guid: 3c2aa140bfc60f34788ba7a11f045b07,

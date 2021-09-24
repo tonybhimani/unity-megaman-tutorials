@@ -72,6 +72,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2294302881667964656, guid: ad7d863b2457bff4c996a8fb5f419ea5,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2294302881667964657, guid: ad7d863b2457bff4c996a8fb5f419ea5,
         type: 3}
       propertyPath: moveSpeed
@@ -80,7 +85,7 @@ PrefabInstance:
     - target: {fileID: 2294302881667964670, guid: ad7d863b2457bff4c996a8fb5f419ea5,
         type: 3}
       propertyPath: m_Name
-      value: Mambu_43
+      value: Mambu_4x3
       objectReference: {fileID: 0}
     - target: {fileID: 2294302881667964671, guid: ad7d863b2457bff4c996a8fb5f419ea5,
         type: 3}

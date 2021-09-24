@@ -27,7 +27,7 @@ PrefabInstance:
     - target: {fileID: 1242512517668270023, guid: 2342c4e17c4c9b046ab63e53e787099e,
         type: 3}
       propertyPath: m_Name
-      value: Blaster_43
+      value: Blaster_4x3
       objectReference: {fileID: 0}
     - target: {fileID: 1242512517668270041, guid: 2342c4e17c4c9b046ab63e53e787099e,
         type: 3}
@@ -92,6 +92,11 @@ PrefabInstance:
     - target: {fileID: 1242512517668270041, guid: 2342c4e17c4c9b046ab63e53e787099e,
         type: 3}
       propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1242512517668270041, guid: 2342c4e17c4c9b046ab63e53e787099e,
+        type: 3}
+      propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1242512517668270046, guid: 2342c4e17c4c9b046ab63e53e787099e,

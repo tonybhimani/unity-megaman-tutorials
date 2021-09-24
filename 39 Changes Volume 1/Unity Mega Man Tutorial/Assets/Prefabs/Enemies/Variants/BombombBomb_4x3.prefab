@@ -83,6 +83,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3858792755840688746, guid: 3422b7e27dac4b944aa221f06f1aaa9e,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3858792755840688747, guid: 3422b7e27dac4b944aa221f06f1aaa9e,
         type: 3}
       propertyPath: shrapnelPrefab

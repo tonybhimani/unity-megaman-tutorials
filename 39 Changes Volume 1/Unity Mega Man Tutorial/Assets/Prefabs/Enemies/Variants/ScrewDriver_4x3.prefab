@@ -94,6 +94,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5774417138351698403, guid: 1c0c5dc0ef975d74c80fd9ab37e4e67e,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5774417138351698424, guid: 1c0c5dc0ef975d74c80fd9ab37e4e67e,
         type: 3}
       propertyPath: explodeEffectPrefab
@@ -114,7 +119,7 @@ PrefabInstance:
     - target: {fileID: 5774417138351698425, guid: 1c0c5dc0ef975d74c80fd9ab37e4e67e,
         type: 3}
       propertyPath: m_Name
-      value: ScrewDriver_43
+      value: ScrewDriver_4x3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1c0c5dc0ef975d74c80fd9ab37e4e67e, type: 3}

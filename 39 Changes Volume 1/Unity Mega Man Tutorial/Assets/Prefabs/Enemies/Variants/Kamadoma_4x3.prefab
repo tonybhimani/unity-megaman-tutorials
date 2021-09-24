@@ -16,7 +16,7 @@ PrefabInstance:
     - target: {fileID: 4774944254433741058, guid: e6103b7b865c26949bace4671655c16c,
         type: 3}
       propertyPath: m_Name
-      value: Kamadoma_43
+      value: Kamadoma_4x3
       objectReference: {fileID: 0}
     - target: {fileID: 4774944254433741060, guid: e6103b7b865c26949bace4671655c16c,
         type: 3}
@@ -81,6 +81,11 @@ PrefabInstance:
     - target: {fileID: 4774944254433741060, guid: e6103b7b865c26949bace4671655c16c,
         type: 3}
       propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4774944254433741060, guid: e6103b7b865c26949bace4671655c16c,
+        type: 3}
+      propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4774944254433741115, guid: e6103b7b865c26949bace4671655c16c,

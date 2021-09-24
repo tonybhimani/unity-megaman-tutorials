@@ -198,6 +198,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   freezeEnemy: 0
+  hasHealthBar: 0
   scorePoints: 800
   currentHealth: 0
   maxHealth: 1
@@ -208,6 +209,8 @@ MonoBehaviour:
   bonusItemType: 1
   bonusBallColor: 1
   weaponPartColor: 1
+  bonusDestroyDelay: 5
+  bonusVelocity: {x: 0, y: 3}
   damageClip: {fileID: 8300000, guid: 152b7f28f4276804da64823633f38fca, type: 3}
   blockAttackClip: {fileID: 8300000, guid: 55b83343713626049a277c6350aeca4b, type: 3}
   shootBulletClip: {fileID: 8300000, guid: ccfff0e30a4b08c46a82983a275e7ec2, type: 3}
@@ -217,6 +220,14 @@ MonoBehaviour:
     type: 3}
   explodeEffectPrefab: {fileID: 4208628423711626020, guid: ddf8da07111145944b87945a176342f8,
     type: 3}
+  explodeEffectDestroyDelay: 2
+  TakeDamageEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  DefeatEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  damageOverrides: []
 --- !u!114 &2294302881667964657
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -229,6 +240,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a764ddbaf4222eb42b65ead59d8160c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enableAI: 0
   moveSpeed: 1
   openDelay: 1
   closedDelay: 1.5

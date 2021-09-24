@@ -227,6 +227,7 @@ MonoBehaviour:
   DefeatEvent:
     m_PersistentCalls:
       m_Calls: []
+  damageOverrides: []
 --- !u!114 &1242512517668270046
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -239,6 +240,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d6e7e82b5229ecf40974c02f932ec6ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enableAI: 0
+  startDelay: 0
   closedDelay: 2
   playerRange: 2
   blasterColor: 0

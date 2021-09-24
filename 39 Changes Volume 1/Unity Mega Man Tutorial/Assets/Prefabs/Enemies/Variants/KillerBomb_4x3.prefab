@@ -72,6 +72,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2927638698630372208, guid: 034043a7a1ffb4940a940dcf69066aae,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2927638698630372211, guid: 034043a7a1ffb4940a940dcf69066aae,
         type: 3}
       propertyPath: bezierDistance
@@ -80,7 +85,7 @@ PrefabInstance:
     - target: {fileID: 2927638698630372218, guid: 034043a7a1ffb4940a940dcf69066aae,
         type: 3}
       propertyPath: m_Name
-      value: KillerBomb_43
+      value: KillerBomb_4x3
       objectReference: {fileID: 0}
     - target: {fileID: 2927638698630372221, guid: 034043a7a1ffb4940a940dcf69066aae,
         type: 3}

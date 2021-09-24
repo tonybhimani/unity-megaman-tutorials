@@ -10,7 +10,7 @@ PrefabInstance:
     - target: {fileID: 7511361543302447815, guid: 5fab1321ef2a5414993398802f9dad83,
         type: 3}
       propertyPath: m_Name
-      value: BigEye_43
+      value: BigEye_4x3
       objectReference: {fileID: 0}
     - target: {fileID: 7511361543302448440, guid: 5fab1321ef2a5414993398802f9dad83,
         type: 3}
@@ -81,6 +81,11 @@ PrefabInstance:
     - target: {fileID: 7511361543302448445, guid: 5fab1321ef2a5414993398802f9dad83,
         type: 3}
       propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7511361543302448445, guid: 5fab1321ef2a5414993398802f9dad83,
+        type: 3}
+      propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7511361543302448446, guid: 5fab1321ef2a5414993398802f9dad83,
