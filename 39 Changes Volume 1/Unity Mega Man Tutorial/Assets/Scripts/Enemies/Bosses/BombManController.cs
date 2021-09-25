@@ -223,6 +223,7 @@ public class BombManController : MonoBehaviour
     void Launch()
     {
         // we don't want the bomb to land exactly in the player's position
+        float targetOffset = this.targetOffset;
         if (playerPosition.x > transform.position.x) targetOffset *= -1f;
         // set up the bomb properties and launch it
         bomb.GetComponent<BombScript>().SetContactDamageValue(4);
