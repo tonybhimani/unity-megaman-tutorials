@@ -19,6 +19,20 @@ public class GameManager : MonoBehaviour
     GameObject HUDCanvas;
     GameObject WeaponsMenu;
 
+    // resolution scales
+    public enum ResolutionScales
+    {
+        Scale16x9,
+        Scale4x3
+    };
+    public ResolutionScales resolutionScale = ResolutionScales.Scale16x9;
+
+    // weapons menu palette
+    public global::WeaponsMenu.MenuPalettes weaponsMenuPalette;
+    public int wmpBlock1Color;
+    public int wmpBlock2Color;
+    public int wmpBackgroundColor;
+
     GameObject player;
 
     CameraFollow cameraFollow;
@@ -53,13 +67,6 @@ public class GameManager : MonoBehaviour
     int playerLives;
     int playerScore;
     List<int> bonusScore = new List<int>();
-
-    public enum ResolutionScales
-    {
-        Scale16x9,
-        Scale4x3
-    };
-    public ResolutionScales resolutionScale = ResolutionScales.Scale16x9;
 
     float gameRestartTime;
     float gamePlayerReadyTime;
@@ -273,6 +280,22 @@ public class GameManager : MonoBehaviour
     {
         // set resolution scale for prefab selection from asset palette
         this.resolutionScale = scale;
+    }
+
+    public void SetWeaponsMenuPalette(WeaponsMenu.MenuPalettes palette)
+    {
+        // set the weapons menu palette
+        this.weaponsMenuPalette = palette;
+    }
+
+    public void SetWeaponsMenuPalette(int block1Color, int block2Color, int backgroundColor)
+    {
+        // set the weapons menu custom palette colors
+        this.weaponsMenuPalette = global::WeaponsMenu.MenuPalettes.Custom;
+        this.wmpBlock1Color = block1Color;
+        this.wmpBlock2Color = block2Color;
+        this.wmpBackgroundColor = backgroundColor;
+
     }
 
     public string GetScene(GameScenes scene)
@@ -619,6 +642,18 @@ public class GameManager : MonoBehaviour
                 WeaponsMenu.GetComponent<WeaponsMenu>().SetMenuData(playerLives,
                     player.GetComponent<PlayerController>().playerWeapon,
                     player.GetComponent<PlayerController>().weaponsData);
+                // set by predefined palette or custom colors
+                if (weaponsMenuPalette != global::WeaponsMenu.MenuPalettes.Custom)
+                {
+                    // set weapons menu palette
+                    WeaponsMenu.GetComponent<WeaponsMenu>().SetMenuPalette(weaponsMenuPalette);
+                }
+                else
+                {
+                    // set weapons menu custom colors
+                    WeaponsMenu.GetComponent<WeaponsMenu>().SetMenuPalette(
+                        wmpBlock1Color, wmpBlock2Color, wmpBackgroundColor);
+                }
                 WeaponsMenu.GetComponent<WeaponsMenu>().ShowMenu();
             }
         }

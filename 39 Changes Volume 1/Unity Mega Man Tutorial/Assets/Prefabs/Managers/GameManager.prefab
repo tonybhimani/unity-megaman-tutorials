@@ -45,6 +45,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   resolutionScale: 0
+  weaponsMenuPalette: 0
+  wmpBlock1Color: 0
+  wmpBlock2Color: 0
+  wmpBackgroundColor: 0
   gameRestartDelay: 5
   gamePlayerReadyDelay: 3
   gamePlayerStartLives: 3
@@ -71,6 +75,11 @@ MonoBehaviour:
     Completed: 0
   - GameScene: 14
     Completed: 0
+  worldViewCoords:
+    Top: 0
+    Right: 0
+    Bottom: 0
+    Left: 0
 --- !u!114 &5081575520552570514
 MonoBehaviour:
   m_ObjectHideFlags: 0

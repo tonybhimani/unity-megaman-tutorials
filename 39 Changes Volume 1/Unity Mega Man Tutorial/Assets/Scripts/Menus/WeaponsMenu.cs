@@ -84,6 +84,7 @@ public class WeaponsMenu : MonoBehaviour
     {
         // get attached components
         animator = GetComponent<Animator>();
+        colorSwap = GetComponent<ColorSwap>();
 
         // initialize the letter flashing timer
         letterFlashTimer = letterFlashDelay;
@@ -95,10 +96,7 @@ public class WeaponsMenu : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        // color swap component to change megaman's palette
-        colorSwap = GetComponent<ColorSwap>();
-
-        // set the manu palette
+        // set the menu palette
         SetMenuPalette(menuPalette);
     }
 
@@ -142,6 +140,7 @@ public class WeaponsMenu : MonoBehaviour
         ShowMenuEvent.Invoke();
         // enable the menu and play its tile-in animation
         gameObject.SetActive(true);
+        ApplyMenuPalette();
         animator.Play("Appear");
     }
 
@@ -312,8 +311,21 @@ public class WeaponsMenu : MonoBehaviour
 
     public void SetMenuPalette(MenuPalettes palette)
     {
-        menuPalette = palette;
+        // set the menu palette with predefined colors
+        this.menuPalette = palette;
+    }
 
+    public void SetMenuPalette(int block1Color, int block2Color, int backgroundColor)
+    {
+        // set the menu palette with custom colors
+        this.menuPalette = MenuPalettes.Custom;
+        this.customColorBlockLight = block1Color;
+        this.customColorBlockDark = block2Color;
+        this.customColorBackground = backgroundColor;
+    }
+
+    private void ApplyMenuPalette()
+    {
         // apply new selected color scheme with ColorSwap
         switch (menuPalette)
         {
@@ -386,17 +398,6 @@ public class WeaponsMenu : MonoBehaviour
                 colorSwap.SwapColor((int)SwapIndex.Background, ColorSwap.ColorFromInt(0xC84C0C));
                 break;
         }
-
-        // apply the color changes
-        colorSwap.ApplyColor();
-    }
-
-    public void SetMenuPalette(int block1Color, int block2Color, int backgroundColor)
-    {
-        // use a custom color scheme with ColorSwap
-        colorSwap.SwapColor((int)SwapIndex.Block1, ColorSwap.ColorFromInt(block1Color));
-        colorSwap.SwapColor((int)SwapIndex.Block2, ColorSwap.ColorFromInt(block2Color));
-        colorSwap.SwapColor((int)SwapIndex.Background, ColorSwap.ColorFromInt(backgroundColor));
 
         // apply the color changes
         colorSwap.ApplyColor();

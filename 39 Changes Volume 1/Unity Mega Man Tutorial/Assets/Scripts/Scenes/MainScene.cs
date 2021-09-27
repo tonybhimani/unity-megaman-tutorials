@@ -86,6 +86,9 @@ public class MainScene : MonoBehaviour
         // 16:9 resolution bonus items
         GameManager.Instance.SetResolutionScale(GameManager.ResolutionScales.Scale16x9);
 
+        // set palette for weapons menu
+        GameManager.Instance.SetWeaponsMenuPalette(WeaponsMenu.MenuPalettes.CutMan);
+
         // how many points is this level worth
         // this is a placeholder until the stage/level select screen is built
         GameManager.Instance.SetLevelPoints(50000);
