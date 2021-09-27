@@ -647,32 +647,8 @@ public class PlayerController : MonoBehaviour
             }
 
             // start ladder climbing here
-            if (ladder != null)
-            {
-                // climbing up
-                if (ladder.isNearLadder && keyVertical > 0 && transformHY < ladder.posTopHandlerY)
-                {
-                    isClimbing = true;
-                    isClimbingDown = false;
-                    animator.speed = 0;
-                    rb2d.bodyType = RigidbodyType2D.Kinematic;
-                    rb2d.velocity = Vector2.zero;
-                    transform.position = new Vector3(ladder.posX, transformY + 0.025f, 0);
-                    StartedClimbing();
-                }
-
-                // climbing down
-                if (ladder.isNearLadder && keyVertical < 0 && isGrounded && transformHY > ladder.posTopHandlerY)
-                {
-                    isClimbing = true;
-                    isClimbingDown = true;
-                    animator.speed = 0;
-                    rb2d.bodyType = RigidbodyType2D.Kinematic;
-                    rb2d.velocity = Vector2.zero;
-                    transform.position = new Vector3(ladder.posX, transformY, 0);
-                    ClimbTransition(false);
-                }
-            }
+            StartClimbingUp();
+            StartClimbingDown();
         }
     }
 
@@ -1449,9 +1425,47 @@ public class PlayerController : MonoBehaviour
         hasStartedClimbing = false;
     }
 
+    // start climbing up a nearby ladder
+    public void StartClimbingUp()
+    {
+        if (ladder != null)
+        {
+            // climbing up
+            if (ladder.isNearLadder && keyVertical > 0 && transformHY < ladder.posTopHandlerY)
+            {
+                isClimbing = true;
+                isClimbingDown = false;
+                animator.speed = 0;
+                rb2d.bodyType = RigidbodyType2D.Kinematic;
+                rb2d.velocity = Vector2.zero;
+                transform.position = new Vector3(ladder.posX, transformY + 0.025f, 0);
+                StartedClimbing();
+            }
+        }
+    }
+
+    // start climbing down a nearby ladder
+    public void StartClimbingDown()
+    {
+        if (ladder != null)
+        {
+            // climbing down
+            if (ladder.isNearLadder && keyVertical < 0 && isGrounded && transformHY > ladder.posTopHandlerY)
+            {
+                isClimbing = true;
+                isClimbingDown = true;
+                animator.speed = 0;
+                rb2d.bodyType = RigidbodyType2D.Kinematic;
+                rb2d.velocity = Vector2.zero;
+                transform.position = new Vector3(ladder.posX, transformY, 0);
+                ClimbTransition(false);
+            }
+        }
+    }
+
     // reset our ladder climbing variables and 
     // put back the animator speed and rigidbody type
-    void ResetClimbing()
+    public void ResetClimbing()
     {
         // reset climbing if we're climbing
         if (isClimbing)
