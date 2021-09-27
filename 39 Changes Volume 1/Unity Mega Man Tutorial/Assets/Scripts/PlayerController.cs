@@ -1014,11 +1014,15 @@ public class PlayerController : MonoBehaviour
         if (isShooting && !keyShoot)
         {
             isShooting = false;
-            GameObject beam = bulletShootPos.transform.Find("PlatformBeam").gameObject;
+            GameObject beam = bulletShootPos.transform.GetChild(0).gameObject;
             if (beam != null)
             {
-                // lock beam into place
-                beam.GetComponent<MagnetBeamScript>().LockBeam();
+                // just to make sure it is a platform beam
+                if (beam.tag.Equals("PlatformBeam"))
+                {
+                    // lock beam into place
+                    beam.GetComponent<MagnetBeamScript>().LockBeam();
+                }
             }
         }
     }
@@ -1154,7 +1158,7 @@ public class PlayerController : MonoBehaviour
         bomb.GetComponent<BombScript>().SetDirection((isFacingRight) ? Vector2.right : Vector2.left);
         bomb.GetComponent<BombScript>().SetVelocity(weaponsData[(int)WeaponTypes.HyperBomb].weaponVelocity);
         bomb.GetComponent<BombScript>().Bounces(true);
-        bomb.GetComponent<BombScript>().ExplosionEvent.AddListener(CanUseWeaponAgain);
+        bomb.GetComponent<BombScript>().ExplosionEvent.AddListener(this.CanUseWeaponAgain);
         bomb.GetComponent<BombScript>().Launch(false);
     }
 
@@ -1169,7 +1173,7 @@ public class PlayerController : MonoBehaviour
         beam.GetComponent<MagnetBeamScript>().SetDestroyDelay(3f);
         beam.GetComponent<MagnetBeamScript>().SetDirection((isFacingRight) ? Vector2.right : Vector2.left);
         beam.GetComponent<MagnetBeamScript>().SetMaxSegments(30);
-        beam.GetComponent<MagnetBeamScript>().LockedEvent.AddListener(CanUseWeaponAgain);
+        beam.GetComponent<MagnetBeamScript>().LockedEvent.AddListener(this.CanUseWeaponAgain);
         SoundManager.Instance.Play(weaponsData[(int)WeaponTypes.MagnetBeam].weaponClip);
     }
 
@@ -1193,7 +1197,7 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    void CanUseWeaponAgain()
+    public void CanUseWeaponAgain()
     {
         // many (almost all) of our weapons require they play out their animation or be destroyed
         // before another copy can be used so this function resets the flags to be able to fire again

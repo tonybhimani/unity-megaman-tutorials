@@ -90,7 +90,7 @@ public class MagnetBeamScript : MonoBehaviour
                 }
 
                 // if the player is below the magnet beam then make it a trigger and set the layer back to default
-                if (player.transform.position.y < transform.position.y)
+                if (player.transform.position.y < transform.position.y - box2d.bounds.extents.y)
                 {
                     if (isSolid)
                     {
