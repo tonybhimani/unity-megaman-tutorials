@@ -10,7 +10,12 @@ PrefabInstance:
     - target: {fileID: 7018019315862712423, guid: dbe2ca096b5cc6e4aa132a4ed06e84a9,
         type: 3}
       propertyPath: bezierDistance
-      value: 0.8
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7018019315862712423, guid: dbe2ca096b5cc6e4aa132a4ed06e84a9,
+        type: 3}
+      propertyPath: bezierHeight.y
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: 7018019315862712426, guid: dbe2ca096b5cc6e4aa132a4ed06e84a9,
         type: 3}

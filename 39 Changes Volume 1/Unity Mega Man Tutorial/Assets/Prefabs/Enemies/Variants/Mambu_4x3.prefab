@@ -80,7 +80,12 @@ PrefabInstance:
     - target: {fileID: 2294302881667964657, guid: ad7d863b2457bff4c996a8fb5f419ea5,
         type: 3}
       propertyPath: moveSpeed
-      value: 0.8
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2294302881667964657, guid: ad7d863b2457bff4c996a8fb5f419ea5,
+        type: 3}
+      propertyPath: closedDelay
+      value: 1.2
       objectReference: {fileID: 0}
     - target: {fileID: 2294302881667964670, guid: ad7d863b2457bff4c996a8fb5f419ea5,
         type: 3}
