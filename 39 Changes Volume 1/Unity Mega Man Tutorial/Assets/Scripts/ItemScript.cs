@@ -210,6 +210,14 @@ public class ItemScript : MonoBehaviour
         }
     }
 
+    public void SetWeaponPartEnemy(WeaponPartEnemies enemy)
+    {
+        if (itemType == ItemTypes.WeaponPart)
+        {
+            weaponPartEnemy = enemy;
+        }
+    }
+
     void SetWeaponPartAnimatorController()
     {
         // get weapon part color
