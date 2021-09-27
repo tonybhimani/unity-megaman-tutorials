@@ -49,18 +49,8 @@ public class MambuController : MonoBehaviour
             enemyController.Flip();
         }
 
-        // not shooting...yet
-        isShooting = false;
-
-        // set up the state timer we're starting with
-        if (mambuState == MambuState.Closed)
-        {
-            closedTimer = closedDelay;
-        }
-        else if (mambuState == MambuState.Open)
-        {
-            openTimer = openDelay;
-        }
+        // set initial state
+        SetState(mambuState);
     }
 
     // Update is called once per frame
@@ -154,6 +144,25 @@ public class MambuController : MonoBehaviour
                 isFacingRight = !isFacingRight;
                 enemyController.Flip();
             }
+        }
+    }
+
+    public void SetState(MambuState state)
+    {
+        // set mambu state
+        mambuState = state;
+
+        // not shooting...yet
+        isShooting = false;
+
+        // set up the state timer we're starting with
+        if (mambuState == MambuState.Closed)
+        {
+            closedTimer = closedDelay;
+        }
+        else if (mambuState == MambuState.Open)
+        {
+            openTimer = openDelay;
         }
     }
 
