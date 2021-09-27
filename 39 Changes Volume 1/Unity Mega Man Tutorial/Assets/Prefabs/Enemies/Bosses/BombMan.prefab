@@ -338,7 +338,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   freezeEnemy: 0
   hasHealthBar: 1
-  scorePoints: 50000
+  scorePoints: 0
   currentHealth: 0
   maxHealth: 28
   contactDamage: 4
