@@ -15,8 +15,11 @@ public class TitleScreen : MonoBehaviour
     // alpha color for keypress text
     int alphaKeyPressText = 255;
 
+    // what's the scene after this
+    public GameManager.GameScenes nextScene;
+
     // access to our TextMeshPro object
-    TextMeshProUGUI tmpTitleText;
+    public TextMeshProUGUI tmpTitleText;
 
     // sound clip for key press
     public AudioClip keyPressClip;
@@ -39,8 +42,14 @@ public class TitleScreen : MonoBehaviour
 
     void Awake()
     {
-        // get title text tmp object
-        tmpTitleText = GameObject.Find("TitleText").GetComponent<TextMeshProUGUI>();
+        // adjust settings based on set resolution scale
+        switch (GameManager.Instance.GetResolutionScale())
+        {
+            case GameManager.ResolutionScales.Scale4x3:
+                // move the title text anchored position
+                tmpTitleText.rectTransform.anchoredPosition = new Vector3(0, -350f);
+                break;
+        }
     }
 
     // Start is called before the first frame update
@@ -76,7 +85,7 @@ public class TitleScreen : MonoBehaviour
                 // tell GameManager to trigger the next scene
                 if (!calledNextScene)
                 {
-                    GameManager.Instance.StartNextScene(GameManager.GameScenes.IntroScene);
+                    GameManager.Instance.StartNextScene(nextScene);
                     calledNextScene = true;
                 }
                 break;

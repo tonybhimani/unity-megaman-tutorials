@@ -2742,6 +2742,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eeb2c2712e6af8d478a5d8e1895dd33a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  canvasScaler: {fileID: 1044727396}
   enemySelection: 0
   blockFlashDelay: 0.2
   whiteScreenFlashDelay: 0.15
@@ -2987,6 +2988,11 @@ PrefabInstance:
         type: 3}
       propertyPath: gameScene
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5081575520552570512, guid: 0416d370d16f81b448ea81b43e8af9f8,
+        type: 3}
+      propertyPath: resolutionScale
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5081575520552570513, guid: 0416d370d16f81b448ea81b43e8af9f8,
         type: 3}

@@ -58,12 +58,14 @@ public class StageSelect : MonoBehaviour
     int[] stagePointsArray = { 50000, 60000, 70000, 80000, 90000, 100000 };
 
     [Header("Scene Settings")]
+    [SerializeField] CanvasScaler canvasScaler;
     [SerializeField] int enemySelection = 0;
     [SerializeField] float blockFlashDelay = 0.2f;
     [SerializeField] float whiteScreenFlashDelay = 0.15f;
     [SerializeField] float typewriterTextDelay = 0.05f;
     [SerializeField] float animationMoveSpeed = 200f;
     [SerializeField] float jumpLandingPosY = -16f;
+    [SerializeField] Vector2 bombTossVelocity = new Vector2(0, 2f);
 
     [Header("Audio Clips")]
     [SerializeField] AudioClip sceneMusicClip;
@@ -135,6 +137,30 @@ ENTER</color></mspace>";
 
     void Awake()
     {
+        // adjust settings based on set resolution scale
+        switch (GameManager.Instance.GetResolutionScale())
+        {
+            case GameManager.ResolutionScales.Scale4x3:
+                // set canvas scaler resolution
+                canvasScaler.referenceResolution = new Vector2(480, 360);
+                // move bomb to new position and set new velocity
+                bomb.transform.localPosition = new Vector3(-38f, 9.5f);
+                bombTossVelocity = new Vector2(0, 2.3f);
+                // update all enemy jump vectors
+                enemyJumpVectors[0] = new Vector2(0, 2.8f);
+                enemyJumpVectors[1] = new Vector2(-0.95f, 2.3f);
+                enemyJumpVectors[2] = new Vector2(-1.363f, 3.5f);
+                enemyJumpVectors[3] = new Vector2(-0.875f, 4.5f);
+                enemyJumpVectors[4] = new Vector2(0, 4.4f);
+                enemyJumpVectors[5] = new Vector2(0.453f, 3.6f);
+                enemyJumpVectors[6] = new Vector2(-0.453f, 3.6f);
+                // move ship and start and end positions
+                wilyShip.transform.localPosition = new Vector3(-285f, 41.75f);
+                WilyShipWaypoints[0].transform.localPosition = new Vector3(-285f, 41.75f);
+                WilyShipWaypoints[4].transform.localPosition = new Vector3(285f, 41.75f);
+                break;
+        }
+
         // initialize timer for alternating block coloring/flashing
         animationTimer = blockFlashDelay;
 
@@ -701,7 +727,7 @@ ENTER</color></mspace>";
                     // unfreeze the bomb and give it a velocity to lift
                     bomb.GetComponent<Rigidbody2D>().constraints =
                         RigidbodyConstraints2D.FreezePositionX | RigidbodyConstraints2D.FreezeRotation;
-                    bomb.GetComponent<Rigidbody2D>().velocity = new Vector2(0, 2f);
+                    bomb.GetComponent<Rigidbody2D>().velocity = bombTossVelocity;
                 }
                 // watch for the bomb coming back down
                 if (UtilityFunctions.OverTime(runTime, thisTime + 1.5f))

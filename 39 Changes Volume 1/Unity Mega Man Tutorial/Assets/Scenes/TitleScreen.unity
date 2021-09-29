@@ -245,6 +245,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1bcc8dfda096d4429a9e0d28cd32ac2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nextScene: 3
+  tmpTitleText: {fileID: 1843766215}
   keyPressClip: {fileID: 8300000, guid: edc3e16abb1dfac4cbd8eb29e04dfafb, type: 3}
 --- !u!1001 &341838154
 PrefabInstance:
@@ -322,6 +324,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5081575520552570512, guid: 0416d370d16f81b448ea81b43e8af9f8,
+        type: 3}
+      propertyPath: resolutionScale
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5081575520552570513, guid: 0416d370d16f81b448ea81b43e8af9f8,
         type: 3}
       propertyPath: m_Name
