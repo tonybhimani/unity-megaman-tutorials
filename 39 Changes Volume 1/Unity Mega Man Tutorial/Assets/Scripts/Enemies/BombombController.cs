@@ -182,6 +182,18 @@ public class BombombController : MonoBehaviour
         this.enableAI = enable;
     }
 
+    public void SetLaunchTimer()
+    {
+        // set the launch timer with launch delay
+        this.launchTimer = launchDelay;
+    }
+
+    public void SetLaunchTimer(float delay)
+    {
+        // set the launch timer with parameter delay
+        this.launchTimer = delay;
+    }
+
     public void SetColor(BombombColors color)
     {
         // set color and update animator controllers
