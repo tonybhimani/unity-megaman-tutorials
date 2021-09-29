@@ -182,6 +182,12 @@ public class AdheringSuzyController : MonoBehaviour
         }
     }
 
+    public bool IsSleeping()
+    {
+        // return sleeping status
+        return isSleeping;
+    }
+
     public void Wake()
     {
         // wake up from slumber
