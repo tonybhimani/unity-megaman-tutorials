@@ -276,6 +276,12 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    public ResolutionScales GetResolutionScale()
+    {
+        // if a scene needs to know the scale
+        return this.resolutionScale;
+    }
+
     public void SetResolutionScale(ResolutionScales scale)
     {
         // set resolution scale for prefab selection from asset palette
