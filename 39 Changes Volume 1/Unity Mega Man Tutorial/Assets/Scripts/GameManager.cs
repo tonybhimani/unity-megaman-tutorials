@@ -1068,9 +1068,16 @@ public class GameManager : MonoBehaviour
     private bool ArePlayerWeaponsInScene()
     {
         // if there are any player weapons in the scene then return true
-        //   this functions is used by ShowWeaponsMenu()  
-        return (GameObject.Find("Bullet(Player)") != null ||
-            GameObject.Find("Bomb(Player)") != null ||
+        //   this functions is used by ShowWeaponsMenu()
+        string scale = "";
+        switch (this.resolutionScale)
+        {
+            case ResolutionScales.Scale4x3:
+                scale = "_4x3";
+                break;
+        }
+        return (GameObject.Find("Bullet" + scale + "(Player)") != null ||
+            GameObject.Find("Bomb" + scale + "(Player)") != null ||
             GameObject.Find("PlatformBeam") != null);
     }
 
