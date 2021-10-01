@@ -1,0 +1,1520 @@
+fileFormatVersion: 2
+guid: bd0035449cbb9b2438946dbd9ec3bf40
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8176795636694730102
+    second: WeaponsMenu_Appear_01
+  - first:
+      213: -13203905336286067
+    second: WeaponsMenu_Appear_02
+  - first:
+      213: 4722868301703749390
+    second: WeaponsMenu_Appear_03
+  - first:
+      213: 5861153816104285934
+    second: WeaponsMenu_Appear_04
+  - first:
+      213: 1291808041345957703
+    second: WeaponsMenu_Appear_05
+  - first:
+      213: -8404056684858708185
+    second: WeaponsMenu_Appear_06
+  - first:
+      213: -5178975701848677932
+    second: WeaponsMenu_Appear_07
+  - first:
+      213: 9075099938766023313
+    second: WeaponsMenu_Appear_08
+  - first:
+      213: -3082858591614936016
+    second: WeaponsMenu_Appear_09
+  - first:
+      213: -5865307408442477980
+    second: WeaponsMenu_Appear_10
+  - first:
+      213: -4698947193978319216
+    second: WeaponsMenu_Appear_11
+  - first:
+      213: 1998568722121912667
+    second: WeaponsMenu_Appear_12
+  - first:
+      213: -8597497885274360389
+    second: WeaponsMenu_Appear_13
+  - first:
+      213: 1912417067631103961
+    second: WeaponsMenu_Appear_14
+  - first:
+      213: 660545694228246860
+    second: WeaponsMenu_Appear_15
+  - first:
+      213: -6176044042103142507
+    second: WeaponsMenu_Disappear_01
+  - first:
+      213: -4575572852380430418
+    second: WeaponsMenu_Disappear_02
+  - first:
+      213: -1980056966051203405
+    second: WeaponsMenu_Disappear_03
+  - first:
+      213: 8588790112091921325
+    second: WeaponsMenu_Disappear_04
+  - first:
+      213: -7984344564798293754
+    second: WeaponsMenu_Disappear_05
+  - first:
+      213: 7519755525430348572
+    second: WeaponsMenu_Disappear_06
+  - first:
+      213: -8219079873688020590
+    second: WeaponsMenu_Disappear_07
+  - first:
+      213: -5317362322661243767
+    second: WeaponsMenu_Disappear_08
+  - first:
+      213: 1392421145211674708
+    second: WeaponsMenu_Disappear_09
+  - first:
+      213: -451770807370902898
+    second: WeaponsMenu_Disappear_10
+  - first:
+      213: -8183108243192728712
+    second: WeaponsMenu_Disappear_11
+  - first:
+      213: 2528512064996195761
+    second: WeaponsMenu_Disappear_12
+  - first:
+      213: 2143815347895814880
+    second: WeaponsMenu_Disappear_13
+  - first:
+      213: 697944159875487635
+    second: WeaponsMenu_Disappear_14
+  - first:
+      213: -6415689709847797861
+    second: WeaponsMenu_Disappear_15
+  - first:
+      213: 4339431527178054272
+    second: WeaponsMenu_Icon_1UP
+  - first:
+      213: -8876510030908833879
+    second: WeaponsMenu_Letter_Blue_B
+  - first:
+      213: -2653615102764847844
+    second: WeaponsMenu_Letter_Blue_E
+  - first:
+      213: -780785512358393278
+    second: WeaponsMenu_Letter_Blue_G
+  - first:
+      213: 7171825402945389167
+    second: WeaponsMenu_Letter_Blue_I
+  - first:
+      213: 5946609349877161532
+    second: WeaponsMenu_Letter_Blue_C
+  - first:
+      213: 7967257039795161699
+    second: WeaponsMenu_Letter_Blue_F
+  - first:
+      213: 4490981941247537568
+    second: WeaponsMenu_Letter_Blue_M
+  - first:
+      213: -8199831714849101784
+    second: WeaponsMenu_Letter_Blue_P
+  - first:
+      213: -7059249144299260818
+    second: WeaponsMenu_Letter_White_B
+  - first:
+      213: -385433121605856319
+    second: WeaponsMenu_Letter_White_E
+  - first:
+      213: 6645671210311867613
+    second: WeaponsMenu_Letter_White_G
+  - first:
+      213: -7436165044296514530
+    second: WeaponsMenu_Letter_White_I
+  - first:
+      213: 3370631073338990023
+    second: WeaponsMenu_Letter_White_C
+  - first:
+      213: -2210657771088224762
+    second: WeaponsMenu_Letter_White_F
+  - first:
+      213: -3491917094798847329
+    second: WeaponsMenu_Letter_White_M
+  - first:
+      213: -1363869438645154255
+    second: WeaponsMenu_Letter_White_P
+  - first:
+      213: 6935012198637428524
+    second: WeaponsMenu_Number_White_0
+  - first:
+      213: -4294918979102208269
+    second: WeaponsMenu_Number_White_1
+  - first:
+      213: -3866018758844629132
+    second: WeaponsMenu_Number_White_2
+  - first:
+      213: 1559029665783606954
+    second: WeaponsMenu_Number_White_3
+  - first:
+      213: -2778641811358334619
+    second: WeaponsMenu_Number_White_4
+  - first:
+      213: -7031995170443585185
+    second: WeaponsMenu_Number_White_5
+  - first:
+      213: 3262790829115243257
+    second: WeaponsMenu_Number_White_6
+  - first:
+      213: -926466481962734685
+    second: WeaponsMenu_Number_White_7
+  - first:
+      213: 8397020428668484633
+    second: WeaponsMenu_Number_White_8
+  - first:
+      213: 4241673789885583433
+    second: WeaponsMenu_Number_White_9
+  - first:
+      213: 3746798369093200717
+    second: WeaponsMenu_Template
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: WeaponsMenu_Appear_01
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 176
+        width: 96
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8ab8d1e0bf268e80800000000000000
+      internalID: -8176795636694730102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeaponsMenu_Appear_02
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 176
+        width: 96
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8468c83e1711dff0800000000000000
+      internalID: -13203905336286067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeaponsMenu_Appear_03
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 176
+        width: 96
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0f110492bffa8140800000000000000
+      internalID: 4722868301703749390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeaponsMenu_Appear_04
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 176
+        width: 96
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee632de8750075150800000000000000
+      internalID: 5861153816104285934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeaponsMenu_Appear_05
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 176
+        width: 96
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74f3b6eb19c6de110800000000000000
+      internalID: 1291808041345957703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeaponsMenu_Appear_06
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 176
+        width: 96
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72fefb2c8face5b80800000000000000
+      internalID: -8404056684858708185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeaponsMenu_Appear_07
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 176
+        width: 96
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d12eeed9059028b0800000000000000
+      internalID: -5178975701848677932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeaponsMenu_Appear_08
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 176
+        width: 96
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19a6157ff4b31fd70800000000000000
+      internalID: 9075099938766023313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeaponsMenu_Appear_09
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 176
+        width: 96
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03cd702d17c7735d0800000000000000
+      internalID: -3082858591614936016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeaponsMenu_Appear_10
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 176
+        width: 96
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 462b15ddcfd3a9ea0800000000000000
+      internalID: -5865307408442477980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeaponsMenu_Appear_11
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 176
+        width: 96
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09e8a945c6cf9ceb0800000000000000
+      internalID: -4698947193978319216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeaponsMenu_Appear_12
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 176
+        width: 96
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b517845f9a75cbb10800000000000000
+      internalID: 1998568722121912667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeaponsMenu_Appear_13
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 176
+        width: 96
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb5bc0f893d8fa880800000000000000
+      internalID: -8597497885274360389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeaponsMenu_Appear_14
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 176
+        width: 96
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dfcb8ac0354a8a10800000000000000
+      internalID: 1912417067631103961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeaponsMenu_Appear_15
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 176
+        width: 96
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4173662fcaba2900800000000000000
+      internalID: 660545694228246860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeaponsMenu_Disappear_01
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 96
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59746417aa84a4aa0800000000000000
+      internalID: -6176044042103142507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeaponsMenu_Disappear_02
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 1
+        width: 96
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaf81f1bbbc4080c0800000000000000
+      internalID: -4575572852380430418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeaponsMenu_Disappear_03
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 1
+        width: 96
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b6fa7f1eac6584e0800000000000000
+      internalID: -1980056966051203405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeaponsMenu_Disappear_04
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 1
+        width: 96
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dab50a10a13813770800000000000000
+      internalID: 8588790112091921325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeaponsMenu_Disappear_05
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 1
+        width: 96
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60970e2dbe8e13190800000000000000
+      internalID: -7984344564798293754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeaponsMenu_Disappear_06
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 1
+        width: 96
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1b8e0b1fc98b5860800000000000000
+      internalID: 7519755525430348572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeaponsMenu_Disappear_07
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 1
+        width: 96
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2995344c666ffed80800000000000000
+      internalID: -8219079873688020590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeaponsMenu_Disappear_08
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 1
+        width: 96
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9840bbfd32fe436b0800000000000000
+      internalID: -5317362322661243767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeaponsMenu_Disappear_09
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 1
+        width: 96
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 450a51a77afd25310800000000000000
+      internalID: 1392421145211674708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeaponsMenu_Disappear_10
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 1
+        width: 96
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8214c228dcfab9f0800000000000000
+      internalID: -451770807370902898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeaponsMenu_Disappear_11
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 1
+        width: 96
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8733de5a862cf6e80800000000000000
+      internalID: -8183108243192728712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeaponsMenu_Disappear_12
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 1
+        width: 96
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bd33649354171320800000000000000
+      internalID: 2528512064996195761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeaponsMenu_Disappear_13
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 1
+        width: 96
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ea4c5353bc50cd10800000000000000
+      internalID: 2143815347895814880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeaponsMenu_Disappear_14
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 1
+        width: 96
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 397df6af3889fa900800000000000000
+      internalID: 697944159875487635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeaponsMenu_Disappear_15
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 1
+        width: 96
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9f946f5334e6f6a0800000000000000
+      internalID: -6415689709847797861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeaponsMenu_Icon_1UP
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08a24909bf1c83c30800000000000000
+      internalID: 4339431527178054272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeaponsMenu_Letter_Blue_B
+      rect:
+        serializedVersion: 2
+        x: 1579
+        y: 328
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9afbc7a182d40d480800000000000000
+      internalID: -8876510030908833879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeaponsMenu_Letter_Blue_E
+      rect:
+        serializedVersion: 2
+        x: 1588
+        y: 328
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1de61d9f177c2bd0800000000000000
+      internalID: -2653615102764847844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeaponsMenu_Letter_Blue_G
+      rect:
+        serializedVersion: 2
+        x: 1597
+        y: 328
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24a4b1a96b71a25f0800000000000000
+      internalID: -780785512358393278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeaponsMenu_Letter_Blue_I
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 328
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f62ceadb431778360800000000000000
+      internalID: 7171825402945389167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeaponsMenu_Letter_Blue_C
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 328
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3ed17d72b9968250800000000000000
+      internalID: 5946609349877161532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeaponsMenu_Letter_Blue_F
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 328
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36a883bb012619e60800000000000000
+      internalID: 7967257039795161699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeaponsMenu_Letter_Blue_M
+      rect:
+        serializedVersion: 2
+        x: 1633
+        y: 328
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a1f0c4084c235e30800000000000000
+      internalID: 4490981941247537568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeaponsMenu_Letter_Blue_P
+      rect:
+        serializedVersion: 2
+        x: 1642
+        y: 328
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 828ef6aff78543e80800000000000000
+      internalID: -8199831714849101784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeaponsMenu_Letter_White_B
+      rect:
+        serializedVersion: 2
+        x: 1579
+        y: 319
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e64ff050e42880e90800000000000000
+      internalID: -7059249144299260818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeaponsMenu_Letter_White_E
+      rect:
+        serializedVersion: 2
+        x: 1588
+        y: 319
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c353063e9aa6aaf0800000000000000
+      internalID: -385433121605856319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeaponsMenu_Letter_White_G
+      rect:
+        serializedVersion: 2
+        x: 1597
+        y: 319
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddcdda861ca2a3c50800000000000000
+      internalID: 6645671210311867613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeaponsMenu_Letter_White_I
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 319
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e14878b6a4f6dc890800000000000000
+      internalID: -7436165044296514530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeaponsMenu_Letter_White_C
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 319
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cd93435a13e6ce20800000000000000
+      internalID: 3370631073338990023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeaponsMenu_Letter_White_F
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 319
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60e5452487a2251e0800000000000000
+      internalID: -2210657771088224762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeaponsMenu_Letter_White_M
+      rect:
+        serializedVersion: 2
+        x: 1633
+        y: 319
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f92966b37e73a8fc0800000000000000
+      internalID: -3491917094798847329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeaponsMenu_Letter_White_P
+      rect:
+        serializedVersion: 2
+        x: 1642
+        y: 319
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13e4b8db8ff821de0800000000000000
+      internalID: -1363869438645154255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeaponsMenu_Number_White_0
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 310
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2fd8c4f9dc1e3060800000000000000
+      internalID: 6935012198637428524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeaponsMenu_Number_White_1
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 310
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fe8787a1f16564c0800000000000000
+      internalID: -4294918979102208269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeaponsMenu_Number_White_2
+      rect:
+        serializedVersion: 2
+        x: 1579
+        y: 310
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47fb1100c64295ac0800000000000000
+      internalID: -3866018758844629132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeaponsMenu_Number_White_3
+      rect:
+        serializedVersion: 2
+        x: 1588
+        y: 310
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaee35f8839c2a510800000000000000
+      internalID: 1559029665783606954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeaponsMenu_Number_White_4
+      rect:
+        serializedVersion: 2
+        x: 1597
+        y: 310
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56140f39ef74079d0800000000000000
+      internalID: -2778641811358334619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeaponsMenu_Number_White_5
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 310
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f59927b46a5596e90800000000000000
+      internalID: -7031995170443585185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeaponsMenu_Number_White_6
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 310
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9faf0d9d8f2c74d20800000000000000
+      internalID: 3262790829115243257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeaponsMenu_Number_White_7
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 310
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ab2e4ea4a78423f0800000000000000
+      internalID: -926466481962734685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeaponsMenu_Number_White_8
+      rect:
+        serializedVersion: 2
+        x: 1633
+        y: 310
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91cbb7e2795388470800000000000000
+      internalID: 8397020428668484633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeaponsMenu_Number_White_9
+      rect:
+        serializedVersion: 2
+        x: 1642
+        y: 310
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 940173ba6d37dda30800000000000000
+      internalID: 4241673789885583433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeaponsMenu_Template
+      rect:
+        serializedVersion: 2
+        x: 1460
+        y: 176
+        width: 96
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4b20dae34d4ff330800000000000000
+      internalID: 3746798369093200717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

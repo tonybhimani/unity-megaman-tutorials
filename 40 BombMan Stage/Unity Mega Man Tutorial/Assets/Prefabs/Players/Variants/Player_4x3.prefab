@@ -1,0 +1,140 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &1193716992606352270
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7767292614320373588, guid: c08c5459dc3ab7e41bd4d9e9cb0ef8a2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7767292614320373588, guid: c08c5459dc3ab7e41bd4d9e9cb0ef8a2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7767292614320373588, guid: c08c5459dc3ab7e41bd4d9e9cb0ef8a2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7767292614320373588, guid: c08c5459dc3ab7e41bd4d9e9cb0ef8a2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7767292614320373588, guid: c08c5459dc3ab7e41bd4d9e9cb0ef8a2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7767292614320373588, guid: c08c5459dc3ab7e41bd4d9e9cb0ef8a2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7767292614320373588, guid: c08c5459dc3ab7e41bd4d9e9cb0ef8a2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7767292614320373588, guid: c08c5459dc3ab7e41bd4d9e9cb0ef8a2,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7767292614320373588, guid: c08c5459dc3ab7e41bd4d9e9cb0ef8a2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7767292614320373588, guid: c08c5459dc3ab7e41bd4d9e9cb0ef8a2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7767292614320373588, guid: c08c5459dc3ab7e41bd4d9e9cb0ef8a2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7767292614320373588, guid: c08c5459dc3ab7e41bd4d9e9cb0ef8a2,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7767292614320373588, guid: c08c5459dc3ab7e41bd4d9e9cb0ef8a2,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7767292614320373589, guid: c08c5459dc3ab7e41bd4d9e9cb0ef8a2,
+        type: 3}
+      propertyPath: weaponsData.Array.data[0].weaponVelocity.x
+      value: 1.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 7767292614320373589, guid: c08c5459dc3ab7e41bd4d9e9cb0ef8a2,
+        type: 3}
+      propertyPath: weaponsData.Array.data[0].weaponVelocity.y
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7767292614320373589, guid: c08c5459dc3ab7e41bd4d9e9cb0ef8a2,
+        type: 3}
+      propertyPath: weaponsData.Array.data[7].weaponVelocity.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7767292614320373589, guid: c08c5459dc3ab7e41bd4d9e9cb0ef8a2,
+        type: 3}
+      propertyPath: jumpSpeed
+      value: 3.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7767292614320373589, guid: c08c5459dc3ab7e41bd4d9e9cb0ef8a2,
+        type: 3}
+      propertyPath: moveSpeed
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7767292614320373589, guid: c08c5459dc3ab7e41bd4d9e9cb0ef8a2,
+        type: 3}
+      propertyPath: climbSpeed
+      value: 0.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 7767292614320373589, guid: c08c5459dc3ab7e41bd4d9e9cb0ef8a2,
+        type: 3}
+      propertyPath: climbSpriteHeight
+      value: 0.24
+      objectReference: {fileID: 0}
+    - target: {fileID: 7767292614320373589, guid: c08c5459dc3ab7e41bd4d9e9cb0ef8a2,
+        type: 3}
+      propertyPath: weaponsData.Array.data[0].weaponPrefab
+      value: 
+      objectReference: {fileID: 6401993762789533071, guid: 0c5dc2135d0a24246a3ded5cd990515b,
+        type: 3}
+    - target: {fileID: 7767292614320373589, guid: c08c5459dc3ab7e41bd4d9e9cb0ef8a2,
+        type: 3}
+      propertyPath: weaponsData.Array.data[6].weaponPrefab
+      value: 
+      objectReference: {fileID: 6029246442439872257, guid: 4f37d5f536bd32c4980e61d60c83681d,
+        type: 3}
+    - target: {fileID: 7767292614320373589, guid: c08c5459dc3ab7e41bd4d9e9cb0ef8a2,
+        type: 3}
+      propertyPath: weaponsData.Array.data[7].weaponPrefab
+      value: 
+      objectReference: {fileID: 1434613376343801520, guid: 1bde67e0f5201ca409f3b7568f36c4c3,
+        type: 3}
+    - target: {fileID: 7767292614320373589, guid: c08c5459dc3ab7e41bd4d9e9cb0ef8a2,
+        type: 3}
+      propertyPath: explodeEffectPrefab
+      value: 
+      objectReference: {fileID: 661456325122125667, guid: 72f931e625baa1a47acc23ac291633ab,
+        type: 3}
+    - target: {fileID: 7767292614320373599, guid: c08c5459dc3ab7e41bd4d9e9cb0ef8a2,
+        type: 3}
+      propertyPath: m_Name
+      value: Player_43
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c08c5459dc3ab7e41bd4d9e9cb0ef8a2, type: 3}

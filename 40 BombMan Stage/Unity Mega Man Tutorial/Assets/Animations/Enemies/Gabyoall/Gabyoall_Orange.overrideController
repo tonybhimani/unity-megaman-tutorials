@@ -1,0 +1,13 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Gabyoall_Orange
+  m_Controller: {fileID: 9100000, guid: 8f0b81077fa552b438acb7eb3c1e9fbc, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: fc1ae93170131ac44a2189760ccc5c49, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 38a9ef8bb9c99f74e9bd826dc7c35f7f, type: 2}
