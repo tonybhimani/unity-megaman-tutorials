@@ -42,6 +42,11 @@ public class TitleScreen : MonoBehaviour
 
     void Awake()
     {
+    }
+
+    // Start is called before the first frame update
+    void Start()
+    {
         // adjust settings based on set resolution scale
         switch (GameManager.Instance.GetResolutionScale())
         {
@@ -50,11 +55,7 @@ public class TitleScreen : MonoBehaviour
                 tmpTitleText.rectTransform.anchoredPosition = new Vector3(0, -350f);
                 break;
         }
-    }
 
-    // Start is called before the first frame update
-    void Start()
-    {
         // title text settings
         tmpTitleText.alignment = TextAlignmentOptions.Center;
         tmpTitleText.alignment = TextAlignmentOptions.Midline;
